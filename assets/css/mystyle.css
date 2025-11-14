@@ -1,14 +1,45 @@
 
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 2;
+    background-color: rgb(195, 212, 205);
+}
 
 
-.body {
-    background-image: url(../images/manja-vitolic-gKXKBY-C-Dk-unsplash.jpg);
-    background-repeat: no-repeat;
-    background-size: 75%;
-    justify-content: center;
-    font: 1em sans-serif;
+h1 {
+    font-size: 2.4rem;
+    margin: 0;
+}
+
+nav>div {
+    background-color: rgb(214, 194, 210);
+}
+
+.image-centered {
+  justify-content: center;
+  display: flex;
+
 
 }
+
+#background-image {
+    background-image: url(../images/dogtreats.jpg);
+
+   
+}
+
+.image-backkground-size {
+    height: 32rem;
+    background: center 70%/ cover no-repeat;
+    width: 700px;
+    height: 200px;
+}
+
+
+
+
+
+
 
 
 #button {
