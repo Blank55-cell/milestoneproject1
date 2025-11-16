@@ -1,4 +1,45 @@
 
+html {
+    font-size: 15px;
+
+}
+
+form {
+    max-width: 28rem;
+    margin: auto;
+    padding: 1.2rem ;
+    border: 1px solid slategray;
+    border-radius: 7px;
+    font-family:Helvetica, sans-serif;
+
+}
+
+ label {
+    display: block;
+    margin-top: 10px;
+    font-size: 15px;
+    font-weight: bold;
+
+}
+
+#h1-form {
+    text-align: center;
+    font-family:Helvetica, sans-serif;
+    font-size: 30px;
+    margin-bottom: 12px;
+}
+
+input[type="radio"] {
+    width:auto;
+    margin-right:8px;
+}
+
+input[type="submit"]:hover {
+    background-color: rgb(157, 71, 169);
+
+}
+
+
 body {
     font-family: Arial, Helvetica, sans-serif;
     margin: 2;
@@ -11,8 +52,13 @@ h1 {
     margin: 0;
 }
 
+.p-centered {
+    text-align: center;
+}
+
+
 nav>div {
-    background-color: rgb(214, 194, 210);
+    background-color: rgb(233, 233, 237);
 }
 
 .image-centered {
@@ -36,10 +82,20 @@ nav>div {
 }
 
 
+h1 {
+    font-size: 2.4rem;
+    color: rgb(0, 0, 0);
+}
 
+#p {
+    color: rgb(10, 56, 3);
+}
 
+div {
+    margin-right: 300px;
+    padding: 8px;
 
-
+}
 
 
 #button {

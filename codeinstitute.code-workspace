@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"name": "codeinstitute",
+			"path": "."
+		},
+		{
+			"name": "Assets",
+			"path": "../../Assets"
+		}
+	],
+	"settings": {}
+}
