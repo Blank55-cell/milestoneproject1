@@ -4,6 +4,25 @@ html {
 
 }
 
+
+/* Decided to move my IDs further up top in case it clashes with any other css rules */
+#main-header {
+    background-image: url(../images/dogtreats.jpg);
+    background-repeat: no-repeat;
+    height: 30rem;
+    width: auto;
+}
+
+ #main-page-header{
+    height: 200px;
+    background: center 85%;
+
+
+}
+
+
+
+
 form {
     max-width: 28rem;
     margin: auto;
@@ -39,6 +58,49 @@ input[type="submit"]:hover {
 
 }
 
+/* Title section for welcome to the sausage den*/
+/* Attempted 40px 20px was too large */
+.title {
+    text-align: center;
+    padding: 30px 20px;    
+    background: #239685;
+}
+
+
+/* Attempted 30px decided to turn it into 20px so that it highlights the title more */
+.title {
+    font-size: 20px;
+}
+
+/* SThis section is going to be for the div columns */
+.div-box {
+    background: #239685;
+    border: 1px solid #0c5c58;
+    border-radius: 5px;
+    padding: 14px;
+    margin: 9px;
+    max-width: 300px;
+
+}
+
+.sub-title {
+    font-size: 25px;
+    margin-bottom: 12px;
+    
+}
+
+
+
+
+
+
+.section-box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+
+}
 
 body {
     font-family: Arial, Helvetica, sans-serif;
@@ -71,6 +133,7 @@ nav>div {
 #background-image {
     background-image: url(../images/dogtreats.jpg);
 
+
    
 }
 
@@ -80,6 +143,16 @@ nav>div {
     width: 700px;
     height: 200px;
 }
+
+
+iframe {
+    justify-content: center;
+    display: flex;
+    
+}
+
+
+
 
 
 h1 {
@@ -108,22 +181,6 @@ div {
 }
 
 
-
-#main-header {
-    background-image: url(../images/dogtreats.jpg);
-    background-repeat: no-repeat;
-    height: 30rem;
-    width: auto;
-}
-
- #main-page-header{
-    height: 200px;
-    background: center 85%;
-
-
-}
-
-
 .text-centered-header {
     color: rgb(4, 0, 0);
     text-align: center;
@@ -132,23 +189,146 @@ div {
 }
 
 
+/* for Q&A section */
+/* editted Q&A section as it was too compressed */
+
+.qa-section {
+    margin: 30px auto;
+    padding: 17px;
+   
+
+}
+
+summary.button {
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 12px;
+    background: #f4f4f4;
+    border: 1px solid whitesmoke;
+    border-radius: 5px;
+}
+
+details p, details ul {
+    margin: 20px 0 ;
+    padding: 8px;
+    background: #9acfc7;
+}
+
+.quick-tip {
+    font-style: italic;
+    color: rgb(0, 0, 0);
+    margin-top: 7px;
+}
+
+
+.gallery-wrapped {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: 15px 0;
+}
+
+
+
+#div-gallery {
+   float: left;
+   display: flex;
+   flex-direction:row;
+   align-items:center;
+   margin-left: 1em;
+   max-width: 140px;
+   margin-bottom: 2em;
+
+}
+
+#div-gallery img {
+    width: 200px;
+    height: auto;
+    margin-bottom: 4px;
+    border-radius:6px;
+    border:1px solid #0c5c58;
+}
+
+
+
+.h2-title {
+    text-align: center;
+    margin-bottom: 23px;
+}
+
+.info {
+    background: #3bad9c;
+    border: 1px solid steelblue;
+    border-radius: 8px;
+    padding: 10px 15px;
+
+}
+
+
+summary:hover {
+    color: turquoise;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+
+details p {
+    margin-top: 10px;
+    color: black;
+
+}
+
+
+/* About section */
+.p-about {
+    max-width: 550px;
+    margin: 25px auto;
+    padding: 10 20px;
+    line-height: 1.4;
+    border: #0c5c58 solid 1px;
+    font-family: Helvetica, arial, sans-serif;
+}
+
+
+
+.mimi-pic {
+    width: 200px;
+    border: #0c5c58 solid 2px;
+    border-radius: 40%;
+    display: block;
+    margin: 40px auto;
+   
+}
+
+
+.testimonies-about {
+    border: #0c5c58 solid 1px;
+}
 
 
 
 
+.section-socials {
+    clear: both;
+    font-size: 15px;
+    margin-bottom: 4px;
+}
 
 
+.section-h3 {
+    font-size:19px;
+    margin-bottom: 8px;
+    
+}
 
 
-
-
-
-
-
-
-
-
-
+@media (max-width: 768px) {
+    .qa-section {
+        width: 95%;
+        padding: 16px;
+    }
+}
+ 
 
 
 

@@ -1,8 +1,24 @@
 # milestone-project 1
 
-# Main goal 
+## Main goal 
 
 - The aim of the creation of this website is to create a source of information that can help dachshunds owners to better understand the aspects of dachsunds and how they behave and more importantly the potential ailments that they can develop. For example complicated back problems are the more prevenlant issues that can occur with the most dehabilitating one being IVDD (Interverterbate Disc Disease)that can occur further through their lives. Thia can lead to a costly and demoralising journey and for that reason i want to incorporate features that can allow for any daschund users to be able to enquire and better understand the potential risks of this disease and other ailments that can occur so that it can help reduce the potential risks of these issues occuring.
+
+- In summary this website is being designed in order to better help dachshund owners understand  how to look after their dogs coats while explaining the potential health risks and care needs allowing for easier navigation, FAQs, and resources to help support a more responsible ownership.
+
+## Tools used:
+1. HTML5 
+2. CSS 
+3. Bootstrap 
+4. Github 
+
+# Link to github repo:
+- 
+
+
+
+
+---
 
 ## Project Objectives:
 - Provide a website that can fill the needs for any dachshund owners.
@@ -31,6 +47,10 @@
 - [Dog-treats](../codeinstitute/assets/images/dogtreats.jpg) 
 **credits**: [okeykat](https://unsplash.com/photos/multicolored-dog-bone-toys-w6elADh_jww)
 
+- [Grass-2](../codeinstitute/assets/images/Grass%202.jpg) **credits**: [Lorren-&-Loki](https://unsplash.com/photos/brown-short-coated-dog-with-brown-leash-Bf07Cxq1aH0)
+
+
+- [Dpuppy](../codeinstitute/assets/images/dpuppy.jpg) **credits**: [Carlos-Ibáñez](https://unsplash.com/photos/brown-and-white-short-coated-dog-on-white-textile--VscXAULPao)
 
 
 
@@ -111,19 +131,28 @@ The src images implemneted into the divs i implemeneted and werent a part of the
 
 
 
-## Code fixes conducted
+## Code fixes conducted:
+- Broken link on iframe 
+ <!-- <section>
+        <!-- <iframe width="400px" height="auto" src="https://www.google.com/maps/place/51°29'01.4%22N+0°04'06.5%22W/@51.4835958,-0.0707591,16.97z/data=!4m12!1m7!3m6!1s0x487603129437a7af:0xbd6f4808293d5a0d!2sPets+at+Home+Old+Kent+Road!8m2!3d51.4835986!4d-0.0681373!16s%2Fg%2F11b75kh3bs!3m3!8m2!3d51.483732!4d-0.068481?entry=ttu&g_ep=EgoyMDI1MTExMi4wIKXMDSoASAFQAw%3D%3D"></iframe>
+       
+      </section> --> 
+
+- Solution: 
+Using the embedded html line of code provided byb google maps allowed me to incorporate it.
 
 
 
+## Changes done to the code/layout 
+-  Changed the div columns from boot strap into my own in order to be more in control of the way they interact allowing for less breakages to occur. This has also made it less cluttered and cleaner.
 
-
+- Changes done to the Q&A section changed from buttons to details helps to reduce the need for a load of css to be done and can help to organise the layout of the html into a much simpler order
 
 -- Structure 
 
 ### Header 
 -Displaying the sites name: The Sausage Den
 -Tagline: "Your source of info for our sausage doggos" 
-
 
 ### Navigation Bar 
 - Built using the bootstrap's navbar component 
@@ -132,8 +161,19 @@ The src images implemneted into the divs i implemeneted and werent a part of the
      -**Features** (active link)
      -**About** (active link but will need to work on the page soon)
 
+### Divs containing information on sausage dog coat types:
 
-## Current Content
+### History of dachshunds
+
+### Fun facts about dachshunds
+
+
+
+### Recommended toys and activities to keep them distracted and having fun
+
+---
+
+## Current Content:
 
 
 ### Dachshund Coat Types
@@ -168,27 +208,29 @@ Long haired dachshunds have softer and flowing fur that has a sort of feathering
 
 ## Common symptons experienced by dachshunds
 
-# Intervertable Disc Disease 
+### Intervertable Disc Disease 
 - Common disc disease 
 - Their long spine can lead to a higher chance of a slipped or herniated disc 
 - Symptons include: difficulty walking, yelping when moved or picked up, less inclined to move.
 
-# Obesity 
+### Obesity 
 - Dachshunds gain weight very easily which can lead to more pressure being placed on their spine and joints causing them to wear down.
 - Heart disease and blood pressure are also common with obesiy.
 
-# Hip Dysplasia and Patella Luxation
+### Hip Dysplasia and Patella Luxation
 - Due to the way in which a dachshunds weight is distributed it can ultimately lead to the joints wearing down causing arthritis.
 - Patella luxation is the dislocation of the kneecap causing limping and extreme pain.
 
 
-# Skin conditions
+### Skin conditions
 - Skin conditions such as itching can occur as a result of allergies 
 - Skin conditions can vary but are quite noticeable 
 - Mites can burrow into the skin causing discomfort and itching      resulting in patches forming. 
 
-# Dental disease 
+### Dental disease 
 - Small breeds in general suffer from tartar build up, gum disease and tooth loose
+
+##
 
 
 
@@ -219,6 +261,8 @@ This section is gonna be for the form section and will contain areas to fill out
 
 ## Further potential features
 - A Form reset button to help clear the page allowing the visitor to start again
+- Expand Q&A section with more topics 
+- Improve accessibility
 
 
 # Nav bar 
@@ -237,7 +281,7 @@ This section will provide an area that will allow the visitor of the site to be 
 
 ## Features 
 
-- button layout that once clicked will ddropdown and provide the answer to the stated question.
+- button layout that once clicked will dropdown and provide the answer to the stated question.
 - # Nav bar 
 
 - Welcome
@@ -270,6 +314,11 @@ This section will provide an area that will allow the visitor of the site to be 
 - Smooth haired dachshunds really require grooming and in turn only need to be brushed 
 - Long haired dachshunds can be taken to the groomers as well but the main areas to focus on trimmming are the paws, ears and tail.
 
+# How much exercise should a dachshund need?
+-Dachshunds need at most around 45minutes to an hour per day but it can vary dependingon the amount of playtime they have at home. Make sure to be wary of any high intensive movement as it can potentially affect their back.
+
+# How prone are dachshunds to separation anxiety?
+- Dachshunds are able to bond very closely to their owners making it hard for them to to be separated for long durations of time. With proper training the3y can cope better.
 
 --- 
 ### About section
@@ -278,9 +327,32 @@ This section will provide an area that will allow the visitor of the site to be 
 ## Features 
 - An image and brief explanation of my own personal dog will be provided as shes a dachshund this can help to alleviate any enquires as to whether i have any personal experience. 
 - Inclusion 
-- Contact information such as company email address wil be at the bottom in the footer 
+- Contact information such as email address (fake email) will be at the bottom in the footer
 
 
+
+## Gallery of sausages:
+- Will include a line of images from the web of sausage dogs 
+
+
+
+
+## Contact us section 
+- Will include an area for the contact information be placed
+
+• Email
+• Instagram
+• Facebook
+• Twitter
+
+
+
+
+
+
+
+
+---
 
 # Nav bar 
 
@@ -288,6 +360,8 @@ This section will provide an area that will allow the visitor of the site to be 
 - Home 
 - Q&A
 - About 
+
+
 
 
 
