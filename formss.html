@@ -40,51 +40,57 @@
 
     
 
-    <h1 id="h1-form">Registration Form</h1>
+    <h1 id="form">Registration Form</h1>
     <br>
     <form method="post">
         <fieldset>
-            <legend>Full Name</legend>
-        <label for="">First Name:</label>
-        <input type="text" required> 
+            <legend>Full Name:</legend>
+        <label for="firstName">First Name:</label>
+        <input class="form-section" type="text" id="firstName" name="firstName" placeholder="Enter your first name" required> 
         <br>
         <br>
-        <label for="">Last Name</label>
-        <input type="text" required>
+        <label for="lastName">Last Name</label>
+        <input class="form-section" type="text" id="lastName" name="lastName" placeholder="Enter your last name" required>
         </fieldset>
         <br>
        
-
-        <label for="">What type of Dachshunds do you have:</label>
-        <label for=""></label>
+      <fieldset>
+       <label for="dachshundType">What type of Dachshunds do you have:</label>
+        <label for="dachshundType" name="dachshundType"></label>
         <br>
        
         <select name="" id="">
+          <option value="">--Select--</option>
             <option value="">Minature</option>
             <option value="">Long Haired</option>
             <option value="">Wire Haired</option>
             <option value="">Smooth Haired</option>
         </select>    
+        </fieldset>
         <br>
         <br>
         
-        
+
+
+        <fieldset>
+          <legend>Other info:</legend>
         <label for="">Are you over 18:</label>
         
         
        
 
-        <label for="Confirm_age">Yes</label>
-        <input type="radio" name="Confirm_age" required>
+        <label for="ageNo">Yes</label>
+        <input type="radio" id="ageYes" name="confirmAge" value="Yes" required>
 
-        <label for="Confirm_age">No</label>
-        <input type="radio" name="Confirm_age" required>
+        <label for="ageNo">No</label>
+        <input type="radio" id="ageNo" name="confirmAge" value="No" required>
         <br>
-        <br>
+        <br> 
+        
+      </fieldset>
 
-
-        <label for="Provide_email">Please provide your email:</label>
-        <input type="text" name="Provide_email" required>
+        <label for="provideEmail">Please provide your email:</label>
+        <input class="form-section" type="text" name="provideEmail" id="provideEmail" placeholder="Please enter your name:">
 
 
         <br>

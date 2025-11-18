@@ -4,5 +4,5 @@
 # VSCode settings
 .vscode/
 
-# Node modules (if you ever use npm)
+# Node modules 
 node_modules/

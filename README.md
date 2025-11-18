@@ -12,8 +12,7 @@
 3. Bootstrap 
 4. Github 
 
-# Link to github repo:
-- 
+
 
 
 
@@ -141,8 +140,27 @@ The src images implemneted into the divs i implemeneted and werent a part of the
 - Solution: 
 Using the embedded html line of code provided byb google maps allowed me to incorporate it.
 
+# CSS had some issues with rules over riding one another and some rules having spelling mistakes
+example being:
+
+• h1 headers overriding each other so i merged them into one h1 
+• two section-history rules need to merge as well
+• two section-socials rules need to merge into one 
+• Meant to use line-height somehow used list-style
+• border requires a style forgot to add solid 
+• Had issues with the order in which the css was made had to change the way it was layered it took a couple hours but was completed i think its fixed will run through some form of tool.
+• Used help from google ai to help understand the layout of this section as i didnt know how to structure it that well:  
+details p,
+details ul {
+  margin: 20px 0;
+ padding: 8px;
+  background: #9acfc7;
+}
+•
+   **Areas in css code have been marked as fixed**
 
 
+--
 ## Changes done to the code/layout 
 -  Changed the div columns from boot strap into my own in order to be more in control of the way they interact allowing for less breakages to occur. This has also made it less cluttered and cleaner.
 

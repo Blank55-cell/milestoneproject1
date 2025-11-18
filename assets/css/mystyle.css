@@ -1,334 +1,416 @@
+/* Base styles */
+ html  {
 
-html {
-    font-size: 15px;
-
-}
-
-
-/* Decided to move my IDs further up top in case it clashes with any other css rules */
-#main-header {
-    background-image: url(../images/dogtreats.jpg);
-    background-repeat: no-repeat;
-    height: 30rem;
-    width: auto;
-}
-
- #main-page-header{
-    height: 200px;
-    background: center 85%;
-
+  font-size: 15px;
 
 }
 
 
 
 
-form {
-    max-width: 28rem;
-    margin: auto;
-    padding: 1.2rem ;
-    border: 1px solid slategray;
-    border-radius: 7px;
-    font-family:Helvetica, sans-serif;
+ body  {
+  font-family: Arial, Helvetica, sans-serif;
+    margin: 2px; /* fixed unit */
+  background-color: rgb(195, 212, 205);
+}
+
+
+
+
+/* Headings */
+ h1 {
+  font-size: 2.4rem;
+  margin: 0;
+  color: #000;
+}
+
+ .h2-title  {
+
+  text-align: center;
+ margin-bottom: 23px;
+
 
 }
+
+ #form   {
+
+  text-align: center;
+  font-family: Helvetica, sans-serif;
+  font-size: 30px;
+  margin-bottom: 12px;
+
+
+}
+
+.form-section {
+  cursor: pointer;
+}
+
+
+
+ .text-centered-header {
+
+  color: #040000;
+  text-align: center;
+
+}
+
+
+/* Navigation */
+ nav > div {
+  background-color: rgb(233, 233, 237);
+}
+
+/* Forms */
+ form {
+   max-width: 28rem;
+  margin: auto;
+  padding: 1.2rem;
+   border: 1px solid slategray;
+  border-radius: 7px;
+font-family: Helvetica, sans-serif;
+
+}
+
+
 
  label {
-    display: block;
-    margin-top: 10px;
-    font-size: 15px;
-    font-weight: bold;
-
+  display: block;
+   margin-top: 10px;
+  font-size: 15px;
+   font-weight: bold;
 }
 
-#h1-form {
-    text-align: center;
-    font-family:Helvetica, sans-serif;
-    font-size: 30px;
-    margin-bottom: 12px;
-}
 
 input[type="radio"] {
-    width:auto;
-    margin-right:8px;
+  width: auto;
+  margin-right: 8px;
 }
 
 input[type="submit"]:hover {
-    background-color: rgb(157, 71, 169);
-
+  background-color: rgb(157, 71, 169);
 }
 
-/* Title section for welcome to the sausage den*/
-/* Attempted 40px 20px was too large */
+/* Titles */
 .title {
-    text-align: center;
-    padding: 30px 20px;    
-    background: #239685;
+
+   text-align: center;
+  padding: 30px 20px;
+   background: #239685;
+  font-size: 20px;
+
+}
+
+/* Boxes */
+ .div-box {
+
+  background: #239685;
+   border: 1px solid #1da59e;
+  border-radius: 5px;
+  padding: 14px;
+ margin: 9px;
+   max-width: 300px;
+
+
 }
 
 
-/* Attempted 30px decided to turn it into 20px so that it highlights the title more */
-.title {
-    font-size: 20px;
+ .sub-title {
+  font-size: 25px;
+  margin-bottom: 12px;
+
 }
 
-/* SThis section is going to be for the div columns */
-.div-box {
-    background: #239685;
+
+
+
+
+/* Section history */
+.section-history h2 {
+  margin: 30px 0;
+padding: 15px;
+ background-color: #239685;
+ border: 1px solid #0c5c58;
+font-style: italic;
+
+}
+
+.section-history p {
+  margin: 30px 0;
+  padding: 15px;
+ background-color: #61a4d1;
+ border: 1px solid #0c5c58;
+
+}
+
+/* Fun facts */
+.fun-facts { 
+
+  margin: 30px 0;
+  padding: 15px;
+  background-color: #6acac5;
+ border: 1px solid #0c5c58;
+
+}
+
+  .fun-facts li {
+    padding: 15px;
+  background-color: #9fd2d0;
     border: 1px solid #0c5c58;
-    border-radius: 5px;
-    padding: 14px;
-    margin: 9px;
-    max-width: 300px;
 
-}
 
-.sub-title {
-    font-size: 25px;
-    margin-bottom: 12px;
-    
 }
 
 
 
-
-
-
-.section-box {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    padding: 20px;
-
-}
-
-body {
-    font-family: Arial, Helvetica, sans-serif;
-    margin: 2;
-    background-color: rgb(195, 212, 205);
-}
-
-
-h1 {
-    font-size: 2.4rem;
-    margin: 0;
-}
-
-.p-centered {
-    text-align: center;
-}
-
-
-nav>div {
-    background-color: rgb(233, 233, 237);
-}
-
-.image-centered {
-  justify-content: center;
+/* Section box layout */
+  .section-box {
   display: flex;
-
-
+    flex-wrap: wrap;
+  justify-content: space-around;
+    padding: 20px;
 }
 
-#background-image {
-    background-image: url(../images/dogtreats.jpg);
-
-
-   
+/* Centered elements */
+.p-centered {
+  text-align: center;
 }
 
-.image-backkground-size {
-    height: 32rem;
-    background: center 70%/ cover no-repeat;
-    width: 700px;
-    height: 200px;
-}
+.image-centered  {
 
+  display: flex;
+  justify-content: center;
 
-iframe {
-    justify-content: center;
-    display: flex;
-    
 }
 
 
 
-
-
-h1 {
-    font-size: 2.4rem;
-    color: rgb(0, 0, 0);
-}
-
-#p {
-    color: rgb(10, 56, 3);
-}
-
-div {
-    margin-right: 300px;
-    padding: 8px;
-
+/* Background images */
+#main-header   {
+   background-image: url(../images/dogtreats.jpg);
+  background-repeat: no-repeat;
+  height: 30rem;
+   width: auto;
 }
 
 
-#button {
-    background-color:rgba(165, 159, 159, 0.509);
-    justify-content: center;
-    padding: 25px;
-    
 
-
+#main-page-header  {
+  height: 200px;
+  background-position: center 85%;
 }
 
+  #background-image {
 
-.text-centered-header {
-    color: rgb(4, 0, 0);
-    text-align: center;
+  background-image: url(../images/dogtreats.jpg);
 
-    
-}
+  }
 
+.image-background-size {
 
-/* for Q&A section */
-/* editted Q&A section as it was too compressed */
+  width: 700px;
+   height: 200px;
+   background-position: center 70%;
+    background-size: cover;
+   background-repeat: no-repeat;
 
+  }
+
+/* Q&A section */
 .qa-section {
-    margin: 30px auto;
-    padding: 17px;
-   
+
+   margin: 30px auto;
+  padding: 17px;
 
 }
 
 summary.button {
-    cursor: pointer;
-    font-weight: bold;
+  cursor: pointer;
+  font-weight: bold;
     font-size: 12px;
-    background: #f4f4f4;
-    border: 1px solid whitesmoke;
-    border-radius: 5px;
+ background: #f4f4f4;
+   border: 1px solid whitesmoke;
+  border-radius: 5px;
 }
 
-details p, details ul {
-    margin: 20px 0 ;
-    padding: 8px;
-    background: #9acfc7;
-}
-
-.quick-tip {
-    font-style: italic;
-    color: rgb(0, 0, 0);
-    margin-top: 7px;
-}
-
-
-.gallery-wrapped {
-    display: flex;
-    justify-content: flex-start;
-    align-items: flex-start;
-    margin: 15px 0;
-}
-
-
-
-#div-gallery {
-   float: left;
-   display: flex;
-   flex-direction:row;
-   align-items:center;
-   margin-left: 1em;
-   max-width: 140px;
-   margin-bottom: 2em;
-
-}
-
-#div-gallery img {
-    width: 200px;
-    height: auto;
-    margin-bottom: 4px;
-    border-radius:6px;
-    border:1px solid #0c5c58;
-}
-
-
-
-.h2-title {
-    text-align: center;
-    margin-bottom: 23px;
-}
-
-.info {
-    background: #3bad9c;
-    border: 1px solid steelblue;
-    border-radius: 8px;
-    padding: 10px 15px;
-
-}
 
 
 summary:hover {
-    color: turquoise;
-    cursor: pointer;
-    font-weight: bold;
+  color: turquoise;
+font-weight: bold;
+}
+
+details p,
+details ul {
+  margin: 20px 0;
+ padding: 8px;
+  background: #9acfc7;
+}
+
+.quick-tip  {
+  font-style: italic;
+  color: #000;
+  margin-top: 7px;
+
 }
 
 
-details p {
-    margin-top: 10px;
-    color: black;
+
+
+.info   {
+
+  background: #3bad9c;
+   border: 1px solid steelblue;
+  border-radius: 8px;
+   padding: 10px 15px;
 
 }
 
+
+
+/* Gallery */
+.gallery-wrapped  {
+
+  display: flex;
+ justify-content: flex-start;
+ align-items: flex-start;
+  margin: 15px 0;
+
+}
+
+#div-gallery {
+
+   float: left;
+  display: flex;
+    flex-direction: row;
+  align-items: center;
+  margin-left: 1em;
+     max-width: 140px;
+  margin-bottom: 2em;
+}
+
+#div-gallery img {
+
+   width: 200px;
+  height: auto;
+  margin-bottom: 4px;
+    border-radius: 6px;
+  border: 2px solid #1da59e;
+   padding: 4px;
+
+
+}
 
 /* About section */
-.p-about {
-    max-width: 550px;
-    margin: 25px auto;
-    padding: 10 20px;
-    line-height: 1.4;
-    border: #0c5c58 solid 1px;
-    font-family: Helvetica, arial, sans-serif;
+ .about-section  {
+   padding: 20px;
+  max-width: 800px;
+   margin: 0 auto;
+
+ }
+
+.about-section h2 {
+  font-size: 23px;
+   margin-bottom: 8px;
+  border: 2px solid #0c5c58;
+   font-style: italic;
+  background-color: #3bad9c;
 }
 
 
 
-.mimi-pic {
-    width: 200px;
-    border: #0c5c58 solid 2px;
-    border-radius: 40%;
-    display: block;
-    margin: 40px auto;
-   
-}
-
-
-.testimonies-about {
-    border: #0c5c58 solid 1px;
+ .about-section h3 {
+  font-size: 23px;
+    margin-top: 23px;
+  color: black;
+  font-weight: bold;
 }
 
 
 
 
-.section-socials {
-    clear: both;
+  .about-section p {
+
+  line-height: 19px;
+   margin-bottom: 16px;
+}
+
+.about-section img.mimi-pic {
+
+  display: block;
+    margin: 0 auto 17px auto;
+   max-width: 220px;
+  border-radius: 7px;
+}
+
+.about-section ul li {
+
+  margin: 7px 0;
+   color: #239685;
+  line-height: 20px;
+}
+
+/* Testimonies */
+  .testimonies-about  {
+
+  margin: 30px 0;
+   padding: 15px;
+  background-color: #239685;
+   border: 1px solid #0c5c58;
+}
+
+ .testimonies-about h2 {
+
+  font-size: 22px;
+    margin-bottom: 15px;
+  color: black;
+  font-weight: bold;
+}
+
+ .testimonies-about blockquote {
+
+  margin: 15px;
+  padding-left: 15px;
+  border-left: 3px solid #0c5c58;
+   font-style: italic;
+  color: #020202;
+   line-height: 22px;
+
+}
+
+/* Socials */
+ .section-socials {
+
+  clear: both;
     font-size: 15px;
-    margin-bottom: 4px;
+  margin: 30px 0;
+  padding: 15px;
+ background-color: #239685;
+   border: 1px solid #0c5c58;
+
+
+
 }
 
 
-.section-h3 {
-    font-size:19px;
-    margin-bottom: 8px;
-    
+
+
+
+
+
+ .section-h3  {
+
+  font-size: 19px;
+ margin-bottom: 8px;
+
+
 }
 
 
-@media (max-width: 768px) {
-    .qa-section {
-        width: 95%;
-        padding: 16px;
-    }
-}
+
+
  
+
 
 
 
