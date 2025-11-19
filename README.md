@@ -1,383 +1,283 @@
 # milestone-project 1
 
-## Main goal 
+## Quick Links
+- [Main Goal](#main-goal)
+- [Tools Used](#tools-used)
+- [Project Objectives](#project-objectives)
+- [Target Audience](#target-audience)
+- [Credits](#credits)
+- [Bug Fixes](#bug-fixes)
+- [Changes Done to the Code/Layout](#changes-done-to-the-codelayout)
+- [Site Structure](#site-structure)
+- [Current Content](#current-content)
+- [Common Symptoms Experienced by Dachshunds](#common-symptoms-experienced-by-dachshunds)
+- [Form Section](#form-section)
+- [Q&A Section](#qa-section)
+- [About Section](#about-section)
+- [Gallery of Sausages](#gallery-of-sausages)
+- [Contact Us Section](#contact-us-section)
 
-- The aim of the creation of this website is to create a source of information that can help dachshunds owners to better understand the aspects of dachsunds and how they behave and more importantly the potential ailments that they can develop. For example complicated back problems are the more prevenlant issues that can occur with the most dehabilitating one being IVDD (Interverterbate Disc Disease)that can occur further through their lives. Thia can lead to a costly and demoralising journey and for that reason i want to incorporate features that can allow for any daschund users to be able to enquire and better understand the potential risks of this disease and other ailments that can occur so that it can help reduce the potential risks of these issues occuring.
+## Main Goal 
 
-- In summary this website is being designed in order to better help dachshund owners understand  how to look after their dogs coats while explaining the potential health risks and care needs allowing for easier navigation, FAQs, and resources to help support a more responsible ownership.
+The aim of creating this website is to provide a source of information that can help dachshund owners better understand the aspects of dachshunds and how they behave, and more importantly, the potential ailments they can develop. For example, complicated back problems are the more prevalent issues that can occur, with the most debilitating one being IVDD (Intervertebral Disc Disease) that can occur later in their lives. This can lead to a costly and demoralizing journey, and for that reason I want to incorporate features that allow dachshund owners to enquire and better understand the potential risks of this disease and other ailments so that it can help reduce the potential risks of these issues occurring.
 
-## Tools used:
+In summary, this website is being designed to better help dachshund owners understand how to look after their dogs' coats while explaining the potential health risks and care needs, allowing for easier navigation, FAQs, and resources to help support more responsible ownership.
+
+## Tools Used
 1. HTML5 
 2. CSS 
 3. Bootstrap 
-4. Github 
-
-
-
-
-
+4. GitHub 
 
 ---
 
-## Project Objectives:
-- Provide a website that can fill the needs for any dachshund owners.
-- Provide a useful and util UI that can help the visitor to navigate through the website with ease while providing the neccesary answers for any questions they may hold 
+## Project Objectives
+- Provide a website that can fulfill the needs of dachshund owners
+- Provide a useful and intuitive UI that can help visitors navigate through the website with ease while providing the necessary answers to any questions they may have
 
-
-
-
-## Targeted audience 
+## Target Audience 
 - Dachshund owners 
 
-
+---
 
 ## Credits 
 
-# Images 
-- [Wire-haired](../codeinstitute/assets/images/Wire%20haired.jpg)**credits**: [Sandra-Grünewald](https://unsplash.com/photos/gray-and-white-long-coat-small-dog-on-white-sand-during-daytime-mZostdE4kUY)
+### Images 
+- [Wire-haired](../codeinstitute/assets/images/Wire%20haired.jpg) - **Credits**: [Sandra Grünewald](https://unsplash.com/photos/gray-and-white-long-coat-small-dog-on-white-sand-during-daytime-mZostdE4kUY)
 
+- [Smooth-haired](../codeinstitute/assets/images/Smooth%20haired.jpg) - **Credits**: [Hayden Patmore](https://unsplash.com/photos/brown-dachshund-puppy-on-green-grass-field-during-daytime-ohz49NaR9kM)
 
-- [Smooth-haired](../codeinstitute/assets/images/Smooth%20haired.jpg)**credits**: [Hayden-Patmore](https://unsplash.com/photos/brown-dachshund-puppy-on-green-grass-field-during-daytime-ohz49NaR9kM)
+- [Long-haired](../codeinstitute/assets/images/Long%20haired.jpg) - **Credits**: [Darren Richardson](https://unsplash.com/photos/black-and-brown-long-coated-dog-5IQ6cdiS3GM)
 
+- [Dog-treats](../codeinstitute/assets/images/dogtreats.jpg) - **Credits**: [okeykat](https://unsplash.com/photos/multicolored-dog-bone-toys-w6elADh_jww)
 
-- [Long-haired](../codeinstitute/assets/images/Long%20haired.jpg)**credits**: [Darren-Richardson]https://unsplash.com/photos/black-and-brown-long-coated-dog-5IQ6cdiS3GM
+- [Grass-2](../codeinstitute/assets/images/Grass%202.jpg) - **Credits**: [Lorren & Loki](https://unsplash.com/photos/brown-short-coated-dog-with-brown-leash-Bf07Cxq1aH0)
 
-
-- [Dog-treats](../codeinstitute/assets/images/dogtreats.jpg) 
-**credits**: [okeykat](https://unsplash.com/photos/multicolored-dog-bone-toys-w6elADh_jww)
-
-- [Grass-2](../codeinstitute/assets/images/Grass%202.jpg) **credits**: [Lorren-&-Loki](https://unsplash.com/photos/brown-short-coated-dog-with-brown-leash-Bf07Cxq1aH0)
-
-
-- [Dpuppy](../codeinstitute/assets/images/dpuppy.jpg) **credits**: [Carlos-Ibáñez](https://unsplash.com/photos/brown-and-white-short-coated-dog-on-white-textile--VscXAULPao)
-
-
-
-# Code used from outside 
-- Bootstrap nav bar:
-<!-- <nav class="navbar navbar-expand-lg bg-body-tertiary">                                               
-  <div class="container-fluid">
-    <a class="navbar-brand" href="milestone-project1.html">Welcome</a>
-    <div class="navbar-collapse" id="navbarNav">
-      <ul class="navbar-nav">
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="milestone-project1.html">Home</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="formss.html">Win £50!</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="about.html">About</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="q&a.html">Q&A</a>
-        </li>
-    
-      </ul>
-    </div>
-  </div>
-</nav> -->
+- [Dpuppy](../codeinstitute/assets/images/dpuppy.jpg) - **Credits**: [Carlos Ibáñez](https://unsplash.com/photos/brown-and-white-short-coated-dog-on-white-textile--VscXAULPao)
 
 ---
 
-- Bootstrap div column:
-<!-- <div class="container">
-          <div class="row">
-           <div class="col-md-4">
-             <h2>Smooth Coat:</h2>
-             <img src="../codeinstitute/assets/images/Smooth haired.jpg" alt="Smooth haired dachshund"  style="width:200px; border-radius:4px; margin-right:10px;">
-             <br>
-           <p>Smooth-coated Dachshunds have short, shiny fur that lies close to the body. 
-            This is the most common coat type, requiring minimal grooming but offering little insulation in cold weather. 
-            <strong>Negatives:</strong> They can feel the cold easily, may need sweaters in winter, and their sleek coat 
-            shows scratches or skin issues more visibly.</p>
+## Bug Fixes
 
+| Bug / Issue | Cause | Fix Implemented |
+|-------------|-------|-----------------|
+| Broken iframe link (Google Maps embed) | Used a copied URL that wasn't properly formatted for embedding | Replaced with the official embed code provided by Google Maps |
+| CSS `h1` headers overriding each other | Multiple conflicting `h1` rules | Merged into a single `h1` rule |
+| Duplicate CSS rules (`section-history`, `section-socials`) | Repeated selectors causing conflicts | Combined into single rules for each section |
+| Wrong CSS property (`line-height` vs `list-style`) | Typo in property name | Corrected to `line-height` |
+| Border not rendering | Forgot to add `solid` style | Fixed with `border: 1px solid ...` |
+| CSS layering issues | Rules applied in wrong order | Reorganized CSS file for proper cascade |
+| Image paths breaking | Folder restructuring changed relative paths | Updated `src` attributes to match new folder layout |
+| Navbar breaking | Bootstrap collapse not working | Adjusted markup and IDs for proper Bootstrap behavior |
+| Q&A section too CSS-heavy | Used buttons requiring extra styling | Simplified with `<details>` and `<summary>` tags |
+| General spelling mistakes in CSS | Typos in property names | Corrected manually and tested with validation tools |
 
-           </div>
-          </div>
-          <div class="row">
-           <div class="col-md-4">
-             <h2>Long Haired Coat:</h2>
-                <img src="../codeinstitute/assets/images/Long haired.jpg" alt="Long haired dachshund" style="width:200px; border-radius:4px; margin-right:10px;">
-                <br>
-                <p>
-                 Long-haired Dachshunds feature soft, flowing fur with feathering on the ears, chest, and legs. 
-                 They need regular brushing to prevent tangles and are known for their elegant appearance. 
-                 <strong>Negatives:</strong> Their coat mats quickly if not maintained, they shed more, 
-                 and grooming takes extra time and effort.
-                </p>
-            
-           </div>
-          </div>
-          <div class="row">
-           <div class="col-md-4">
-              <h2>Wire Haired Coat:</h2>
-              <img src="../codeinstitute/assets/images/Wire haired.jpg"  alt="Long haired dachshund"  style="width:200px; border-radius:4px; margin-right:10px;">
-              <br>
-            <p> 
-              Wire-haired Dachshunds have a dense, rough outer coat with bushy eyebrows and a beard. 
-               Their scruffy look adds charm, but they require hand-stripping or trimming to maintain coat health. 
-              <strong>Negatives:</strong> Grooming can be more specialized and costly, their coat feels rougher to
-               touch, and they may be prone to itchiness if not properly maintained.</p>
-            
-           </div>
-          </div>
-       </div>  -->
+---
 
-- **Note**:
-The src images implemneted into the divs i implemeneted and werent a part of the original code.
+## Changes Done to the Code/Layout 
 
+- Changed the div columns from Bootstrap into custom ones to have more control over how they interact, allowing for fewer breakages to occur. This has also made the code less cluttered and cleaner.
 
+- Changes done to the Q&A section: changed from buttons to `<details>` tags to reduce the need for extensive CSS and to organize the HTML layout in a much simpler order.
 
+---
 
-## Code fixes conducted:
-- Broken link on iframe 
- <!-- <section>
-        <!-- <iframe width="400px" height="auto" src="https://www.google.com/maps/place/51°29'01.4%22N+0°04'06.5%22W/@51.4835958,-0.0707591,16.97z/data=!4m12!1m7!3m6!1s0x487603129437a7af:0xbd6f4808293d5a0d!2sPets+at+Home+Old+Kent+Road!8m2!3d51.4835986!4d-0.0681373!16s%2Fg%2F11b75kh3bs!3m3!8m2!3d51.483732!4d-0.068481?entry=ttu&g_ep=EgoyMDI1MTExMi4wIKXMDSoASAFQAw%3D%3D"></iframe>
-       
-      </section> --> 
-
-- Solution: 
-Using the embedded html line of code provided byb google maps allowed me to incorporate it.
-
-# CSS had some issues with rules over riding one another and some rules having spelling mistakes
-example being:
-
-• h1 headers overriding each other so i merged them into one h1 
-• two section-history rules need to merge as well
-• two section-socials rules need to merge into one 
-• Meant to use line-height somehow used list-style
-• border requires a style forgot to add solid 
-• Had issues with the order in which the css was made had to change the way it was layered it took a couple hours but was completed i think its fixed will run through some form of tool.
-• Used help from google ai to help understand the layout of this section as i didnt know how to structure it that well:  
-details p,
-details ul {
-  margin: 20px 0;
- padding: 8px;
-  background: #9acfc7;
-}
-•
-   **Areas in css code have been marked as fixed**
-
-
---
-## Changes done to the code/layout 
--  Changed the div columns from boot strap into my own in order to be more in control of the way they interact allowing for less breakages to occur. This has also made it less cluttered and cleaner.
-
-- Changes done to the Q&A section changed from buttons to details helps to reduce the need for a load of css to be done and can help to organise the layout of the html into a much simpler order
-
--- Structure 
+## Home page 
 
 ### Header 
--Displaying the sites name: The Sausage Den
--Tagline: "Your source of info for our sausage doggos" 
+- Displaying the site's name: **The Sausage Den**
+- Tagline: *"Your source of info for our sausage doggos"*
 
 ### Navigation Bar 
-- Built using the bootstrap's navbar component 
--Links:
-     -**Home** (active link)
-     -**Features** (active link)
-     -**About** (active link but will need to work on the page soon)
+- Built using Bootstrap's navbar component 
+- Links:
+  - **Home** (active link)
+  - **Features** (active link)
+  - **About** (active link - will need to work on the page soon)
 
-### Divs containing information on sausage dog coat types:
-
-### History of dachshunds
-
-### Fun facts about dachshunds
-
-
-
-### Recommended toys and activities to keep them distracted and having fun
-
----
-
-## Current Content:
-
-
-### Dachshund Coat Types
-
-This area of the website will demonstrate the through the use of a bootstrap grid the different characteristics of dachshund coats showcasing the potential negatives of their coats and further will be showcasing the ways in which to avoid these negative outcomes 
-
-#### Smooth Coat 
-Smooth haired Dachshunds have short, shiny hair that is very close to the skin. Its one of the most common types of coats. It require minimal grooming but it offers little insulation for them making them more prone to the cold.
-
-**Positives**
--Less prone to matting and very low maintenance 
--Coat require
-
-**Negatuves**
-- Prone to the cold, needs further insulation during the colder times of the year
-- The sleek coat is also more prone to damage as theres a more thinner coat as opposed to the other varients.
-- Very noticeable shedding
-
-#### Long Haired Coat
-Long haired dachshunds have softer and flowing fur that has a sort of feathering coat. They feature more bushy eyebrows and have a scruffier look but due to these reasons they require more grooming otherwise their coat may get matted. 
-
-**Positives**
--  Softer texture compared to other coats
--  Often considered more gentle in temperament
-
-
-**Negatuves**
-- Grooming takes extra time and effort making it high maintenance
-- Coat mats quicklu if not properly maintained
-
-
-
-## Common symptons experienced by dachshunds
-
-### Intervertable Disc Disease 
-- Common disc disease 
-- Their long spine can lead to a higher chance of a slipped or herniated disc 
-- Symptons include: difficulty walking, yelping when moved or picked up, less inclined to move.
-
-### Obesity 
-- Dachshunds gain weight very easily which can lead to more pressure being placed on their spine and joints causing them to wear down.
-- Heart disease and blood pressure are also common with obesiy.
-
-### Hip Dysplasia and Patella Luxation
-- Due to the way in which a dachshunds weight is distributed it can ultimately lead to the joints wearing down causing arthritis.
-- Patella luxation is the dislocation of the kneecap causing limping and extreme pain.
-
-
-### Skin conditions
-- Skin conditions such as itching can occur as a result of allergies 
-- Skin conditions can vary but are quite noticeable 
-- Mites can burrow into the skin causing discomfort and itching      resulting in patches forming. 
-
-### Dental disease 
-- Small breeds in general suffer from tartar build up, gum disease and tooth loose
-
-##
-
-
+### Main Content Sections
+- Divs containing information on dachshund coat types
+- History of dachshunds
+- Fun facts about dachshunds
+- Recommended toys and activities to keep them distracted and having fun
 
 ### Footer 
 - Social media links:
-- [Facebook](https://www.facebook.com)
-- [Instagram](https://www.instagram.com)
-- [Twitter](https://www.twitter.com)
-
+  - [Facebook](https://www.facebook.com)
+  - [Instagram](https://www.instagram.com)
+  - [Twitter](https://www.twitter.com)
 - Copyright © The Sausage Den
 
+---
 
+## Current Content
 
+### Dachshund Coat Types
 
+This area of the website demonstrates, through the use of a Bootstrap grid, the different characteristics of dachshund coats, showcasing the potential negatives of their coats and the ways to avoid these negative outcomes.
 
---- 
+#### Smooth Coat 
+Smooth-haired Dachshunds have short, shiny hair that is very close to the skin. It's one of the most common types of coats. They require minimal grooming but offer little insulation, making them more prone to the cold.
 
-### Form 
+**Positives:**
+- Less prone to matting and very low maintenance 
+- Coat requires minimal grooming
 
-This section is gonna be for the form section and will contain areas to fill out such as the name, dachshund type, age confirmation and the email address.
+**Negatives:**
+- Prone to the cold; needs further insulation during colder times of the year
+- The sleek coat is more prone to damage due to being thinner compared to other variants
+- Very noticeable shedding
 
-## Features 
-- **First name** and **last name**
-- Dropdown menu for selecting **Dachshund type**
-- Radio button for **age confirmation**
-- Email input field 
-- Submit button to register 
+#### Long-Haired Coat
+Long-haired dachshunds have softer, flowing fur with a feathering coat. They feature bushier eyebrows and have a scruffier look, but due to these reasons, they require more grooming; otherwise, their coat may get matted. 
 
-## Further potential features
-- A Form reset button to help clear the page allowing the visitor to start again
-- Expand Q&A section with more topics 
-- Improve accessibility
+**Positives:**
+- Softer texture compared to other coats
+- Often considered more gentle in temperament
 
+**Negatives:**
+- Grooming takes extra time and effort, making it high maintenance
+- Coat mats quickly if not properly maintained
 
-# Nav bar 
+#### Wire-Haired Coat
+Wire-haired dachshunds have a rough, wiry outer coat with a softer undercoat. They have distinctive facial hair including eyebrows and a beard.
 
-- Welcome
-- Home 
-- Q&A
-- About 
+**Positives:**
+- Weather-resistant coat
+- Less shedding compared to smooth-haired
 
+**Negatives:**
+- Requires regular hand-stripping or professional grooming
+- Can develop a strong odor if not properly maintained
 
 ---
 
-### Q&A section 
+## Common Symptoms Experienced by Dachshunds
 
-This section will provide an area that will allow the visitor of the site to be able to better enquire for any sort of frequently asked questions.
+### Intervertebral Disc Disease (IVDD)
+- Common disc disease 
+- Their long spine can lead to a higher chance of a slipped or herniated disc 
+- Symptoms include: difficulty walking, yelping when moved or picked up, less inclined to move
 
-## Features 
+### Obesity 
+- Dachshunds gain weight very easily, which can lead to more pressure being placed on their spine and joints, causing them to wear down
+- Heart disease and high blood pressure are also common with obesity
 
-- button layout that once clicked will dropdown and provide the answer to the stated question.
-- # Nav bar 
+### Hip Dysplasia and Patellar Luxation
+- Due to the way a dachshund's weight is distributed, it can ultimately lead to joints wearing down, causing arthritis
+- Patellar luxation is the dislocation of the kneecap, causing limping and extreme pain
 
-- Welcome
-- Home 
-- Q&A
-- About 
+### Skin Conditions
+- Skin conditions such as itching can occur as a result of allergies 
+- Skin conditions can vary but are quite noticeable 
+- Mites can burrow into the skin, causing discomfort and itching, resulting in patches forming
 
-
-# What can i do to better care for my dogs coat:
-- Regular brushing can help out a lot in help to dislodge any hairs caught in the coat that may cause itching resulting non-stop scratching leading to patches appearing in the coat.
-# Smooth haired:
-- Smooth coats only need to be brushed once a week with a grooming mitt.
-# Long haired: 
-- 3-4 times a week with a more slicker brush can reduce any tangles in the coat and reduce the chances of any matting to occur.
-# Wire haired:
-- Weekly brushing should be more common as well the inclusion of trimming.
-# Nutrition 
-- Nutrition can help maintain their coat and help reduce the general chance of there being significant hair loss. 
-
-
-# How often should i bathe my dachshund 
-- Bathing is only needed when its neccessary a duration of once every 1-2 months or whenever dirty (ensure that a shampoo specifically for your dog is chosen, this avoids drying out the skin).  
-
-
-# What should i feed my dachshund 
-- Balancing out the diet with omega-3 and omega 6 fatty acids can help to support a healthier skin and shiny coat.
-
-# Do i need to take my dachshund to the groomers
-- Wire haired dachshunds benefit the most from grooming a couple times a year but not too often as it helps to keep them warm during the colder times of the year.
-- Smooth haired dachshunds really require grooming and in turn only need to be brushed 
-- Long haired dachshunds can be taken to the groomers as well but the main areas to focus on trimmming are the paws, ears and tail.
-
-# How much exercise should a dachshund need?
--Dachshunds need at most around 45minutes to an hour per day but it can vary dependingon the amount of playtime they have at home. Make sure to be wary of any high intensive movement as it can potentially affect their back.
-
-# How prone are dachshunds to separation anxiety?
-- Dachshunds are able to bond very closely to their owners making it hard for them to to be separated for long durations of time. With proper training the3y can cope better.
-
---- 
-### About section
-- This section will only be a short summary as to why one can trust this website including my own experience with raising a dachshund as it can require a lot of attention.
-
-## Features 
-- An image and brief explanation of my own personal dog will be provided as shes a dachshund this can help to alleviate any enquires as to whether i have any personal experience. 
-- Inclusion 
-- Contact information such as email address (fake email) will be at the bottom in the footer
-
-
-
-## Gallery of sausages:
-- Will include a line of images from the web of sausage dogs 
-
-
-
-
-## Contact us section 
-- Will include an area for the contact information be placed
-
-• Email
-• Instagram
-• Facebook
-• Twitter
-
-
-
-
-
-
-
+### Dental Disease 
+- Small breeds in general suffer from tartar buildup, gum disease, and tooth loss
 
 ---
 
-# Nav bar 
+## Form Section
+
+### Registration Form
+
+To register for our dachshund community, please provide the following information:
+
+#### Personal Information
+- **First Name** (required)
+- **Last Name** (required)
+- **Email Address** (required)
+
+#### Dachshund Details
+Select the type of dachshund you have:
+- Miniature
+- Long Haired
+- Wire Haired
+- Smooth Haired
+
+#### Age Verification
+You must confirm that you are over 18 years old to register.
+
+#### How to Register
+Complete all required fields and submit the form to join our community.
+
+---
+
+## Q&A Section 
+
+This section provides an area that allows visitors to better enquire about frequently asked questions.
+
+### Features 
+- Dropdown layout using `<details>` and `<summary>` tags that, once clicked, will expand and provide the answer to the stated question
+
+### Questions & Answers
+
+#### What can I do to better care for my dog's coat?
+Regular brushing can help dislodge any hairs caught in the coat that may cause itching, resulting in non-stop scratching and patches appearing in the coat.
+
+**Smooth-haired:**
+- Smooth coats only need to be brushed once a week with a grooming mitt
+
+**Long-haired:** 
+- 3-4 times a week with a slicker brush can reduce any tangles in the coat and reduce the chances of matting
+
+**Wire-haired:**
+- Weekly brushing should be more common, as well as the inclusion of trimming
+
+**Nutrition:**
+- Proper nutrition can help maintain their coat and reduce the general chance of significant hair loss
+
+#### How often should I bathe my dachshund?
+Bathing is only needed when necessary—once every 1-2 months or whenever dirty. Ensure that a shampoo specifically for dogs is chosen to avoid drying out the skin.
+
+#### What should I feed my dachshund?
+Balancing out the diet with omega-3 and omega-6 fatty acids can help support healthier skin and a shinier coat.
+
+#### Do I need to take my dachshund to the groomers?
+- **Wire-haired dachshunds** benefit the most from grooming a couple of times a year, but not too often, as it helps keep them warm during colder times of the year
+- **Smooth-haired dachshunds** rarely require professional grooming and only need to be brushed regularly
+- **Long-haired dachshunds** can be taken to the groomers, with the main areas to focus on trimming being the paws, ears, and tail
+
+#### How much exercise should a dachshund need?
+Dachshunds need at most around 45 minutes to an hour per day, but it can vary depending on the amount of playtime they have at home. Be wary of any high-intensity movement as it can potentially affect their back.
+
+#### How prone are dachshunds to separation anxiety?
+Dachshunds are able to bond very closely to their owners, making it hard for them to be separated for long durations of time. With proper training, they can cope better.
+
+---
+
+## About Section
+
+This section provides a short summary as to why one can trust this website, including my own experience with raising a dachshund, as it requires a lot of attention.
+
+### Features 
+- An image and brief explanation of my own personal dog will be provided. As she's a dachshund, this can help alleviate any enquiries as to whether I have personal experience
+- Contact information such as email address (for demonstration purposes) will be at the bottom in the footer
+
+---
+
+## Gallery of Sausages
+
+Will include a collection of images showcasing different dachshunds.
+
+---
+
+## Contact Us Section 
+
+Will include an area for contact information:
+- Email
+- Instagram
+- Facebook
+- Twitter
+
+---
+
+## Navigation Bar Links
 
 - Welcome
 - Home 
 - Q&A
-- About 
+- About
 
 
 
