@@ -11,7 +11,7 @@
  body  {
   font-family: Arial, Helvetica, sans-serif;
     margin: 2px; /* fixed unit */
-  background-color: rgb(195, 212, 205);
+  background-color: #f5f1e8; /* Changed: Was rgb(195, 212, 205) - Now warm cream background */
 }
 
 
@@ -28,6 +28,8 @@
 
   text-align: center;
  margin-bottom: 23px;
+  /* changed to more warm tones */
+ color: #5d4037;
 
 
 }
@@ -38,6 +40,9 @@
   font-family: Helvetica, sans-serif;
   font-size: 30px;
   margin-bottom: 12px;
+   /* changed to more warm tones */
+  color: #5d4037
+  
 
 
 }
@@ -50,7 +55,7 @@
 
  .text-centered-header {
 
-  color: #040000;
+ color: #3d2817;  
   text-align: center;
 
 }
@@ -66,7 +71,8 @@
    max-width: 28rem;
   margin: auto;
   padding: 1.2rem;
-   border: 1px solid slategray;
+  /* changed to more warm tones */
+   border: 1px solid #8d6e63;
   border-radius: 7px;
 font-family: Helvetica, sans-serif;
 
@@ -79,6 +85,8 @@ font-family: Helvetica, sans-serif;
    margin-top: 10px;
   font-size: 15px;
    font-weight: bold;
+   /* Added a warm color setting to the label */
+   color: #5d4037;
 }
 
 
@@ -88,7 +96,8 @@ input[type="radio"] {
 }
 
 input[type="submit"]:hover {
-  background-color: rgb(157, 71, 169);
+  /* lighter color to contrast over the warmer tone but still within the same color palette */
+  background-color: #a1887f;
 }
 
 /* Titles */
@@ -96,7 +105,7 @@ input[type="submit"]:hover {
 
    text-align: center;
   padding: 30px 20px;
-   background: #239685;
+   background: #8d6e63;
   font-size: 20px;
 
 }
@@ -186,6 +195,7 @@ font-style: italic;
 
 
 /* Background images */
+/* Atempting  */
 #main-header   {
    background-image: url(../images/dogtreats.jpg);
   background-repeat: no-repeat;
