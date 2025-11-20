@@ -43,7 +43,7 @@ In summary, this website is being designed to better help dachshund owners under
 - Bootstrap  
 - GitHub  
 - W3C (CSS & HTML)
-- Claude AI to help understand location of errors
+- Claude AI to help understand location of an issue on dev tools (didnt let me access the issue as it was hidden ad wouldnt let me get to it turns out it was an image not loading error 404)
 - Chrome Lighthouse
 
 
