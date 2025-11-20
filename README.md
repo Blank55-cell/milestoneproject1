@@ -24,7 +24,7 @@ A website dedicated to helping dachshund owners better understand their dogs’ 
 - [UX](#ux)
 - [Site Structure](#site-structure)
 - [Future Improvements](#future-improvements)
-- (Website testing)
+- [Website testing](#website-testing)
 
 ---
 
@@ -250,3 +250,5 @@ The user experience (UX) design of **The Sausage Den** focuses on:
 ---
 
 
+
+## Website Testing
