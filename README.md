@@ -1,4 +1,9 @@
-# milestone-project 1
+# The Sausage Den
+
+> **Your source of info for our sausage doggos**  
+A website dedicated to helping dachshund owners better understand their dogs’ coats, health risks, and care needs.  
+
+---
 
 ## Quick Links
 - [Main Goal](#main-goal)
@@ -8,58 +13,79 @@
 - [Credits](#credits)
 - [Bug Fixes](#bug-fixes)
 - [Changes Done to the Code/Layout](#changes-done-to-the-codelayout)
-- [Site Structure](#site-structure)
+- [Site Pages](#site-pages)
+  - [index.html – Home Page](#1-indexhtml--home-page)
+  - [about.html – About Section](#2-abouthtml--about-section)
+  - [q&a.html – Q&A Section](#3-qahtml--qa-section)
+  - [formss.html – Registration Form](#4-formsshtml--registration-form)
 - [Current Content](#current-content)
+  - [Dachshund Coat Types](#dachshund-coat-types)
 - [Common Symptoms Experienced by Dachshunds](#common-symptoms-experienced-by-dachshunds)
-- [Form Section](#form-section)
-- [Q&A Section](#qa-section)
-- [About Section](#about-section)
-- [Gallery of Sausages](#gallery-of-sausages)
-- [Contact Us Section](#contact-us-section)
+- [UX](#ux)
+- [Site Structure](#site-structure)
+- [Future Improvements](#future-improvements)
 
-## Main Goal 
+---
 
-The aim of creating this website is to provide a source of information that can help dachshund owners better understand the aspects of dachshunds and how they behave, and more importantly, the potential ailments they can develop. For example, complicated back problems are the more prevalent issues that can occur, with the most debilitating one being IVDD (Intervertebral Disc Disease) that can occur later in their lives. This can lead to a costly and demoralizing journey, and for that reason I want to incorporate features that allow dachshund owners to enquire and better understand the potential risks of this disease and other ailments so that it can help reduce the potential risks of these issues occurring.
+## Main Goal
+The aim of creating this website is to provide a source of information that can help dachshund owners better understand the aspects of dachshunds and how they behave, and more importantly, the potential ailments they can develop.  
+
+For example, complicated back problems are the more prevalent issues that can occur, with the most debilitating one being **IVDD (Intervertebral Disc Disease)**. This can lead to a costly and demoralizing journey, and for that reason I want to incorporate features that allow dachshund owners to enquire and better understand the potential risks of this disease and other ailments so that it can help reduce the potential risks of these issues occurring.
 
 In summary, this website is being designed to better help dachshund owners understand how to look after their dogs' coats while explaining the potential health risks and care needs, allowing for easier navigation, FAQs, and resources to help support more responsible ownership.
 
+---
+
 ## Tools Used
-1. HTML5 
-2. CSS 
-3. Bootstrap 
-4. GitHub 
+- HTML5  
+- CSS  
+- Bootstrap  
+- GitHub  
 
 ---
 
 ## Project Objectives
-- Provide a website that can fulfill the needs of dachshund owners
-- Provide a useful and intuitive UI that can help visitors navigate through the website with ease while providing the necessary answers to any questions they may have
-
-## Target Audience 
-- Dachshund owners 
+- Provide a website that can fulfill the needs of dachshund owners  
+- Deliver a useful and intuitive UI that helps visitors navigate with ease while providing answers to common questions  
 
 ---
 
-## Credits 
+## Target Audience
+- Dachshund owners  
 
-### Images 
-- [Wire-haired](../codeinstitute/assets/images/Wire%20haired.jpg) - **Credits**: [Sandra Grünewald](https://unsplash.com/photos/gray-and-white-long-coat-small-dog-on-white-sand-during-daytime-mZostdE4kUY)
+---
 
-- [Smooth-haired](../codeinstitute/assets/images/Smooth%20haired.jpg) - **Credits**: [Hayden Patmore](https://unsplash.com/photos/brown-dachshund-puppy-on-green-grass-field-during-daytime-ohz49NaR9kM)
+## Credits
+Images used in this project:  
 
-- [Long-haired](../codeinstitute/assets/images/Long%20haired.jpg) - **Credits**: [Darren Richardson](https://unsplash.com/photos/black-and-brown-long-coated-dog-5IQ6cdiS3GM)
+| Image | Photographer |
+|-------|--------------|
+| Wire-haired | [Sandra Grünewald](https://unsplash.com/photos/mZostdE4kUY) |
+| Smooth-haired | [Hayden Patmore](https://unsplash.com/photos/ohz49NaR9kM) |
+| Long-haired | [Darren Richardson](https://unsplash.com/photos/5IQ6cdiS3GM) |
+| Dog-treats | [okeykat](https://unsplash.com/photos/w6elADh_jww) |
+| Grass-2 | [Lorren & Loki](https://unsplash.com/photos/Bf07Cxq1aH0) |
+| Dpuppy | [Carlos Ibáñez](https://unsplash.com/photos/-VscXAULPao) |
 
-- [Dog-treats](../codeinstitute/assets/images/dogtreats.jpg) - **Credits**: [okeykat](https://unsplash.com/photos/multicolored-dog-bone-toys-w6elADh_jww)
+---
 
-- [Grass-2](../codeinstitute/assets/images/Grass%202.jpg) - **Credits**: [Lorren & Loki](https://unsplash.com/photos/brown-short-coated-dog-with-brown-leash-Bf07Cxq1aH0)
 
-- [Dpuppy](../codeinstitute/assets/images/dpuppy.jpg) - **Credits**: [Carlos Ibáñez](https://unsplash.com/photos/brown-and-white-short-coated-dog-on-white-textile--VscXAULPao)
+
+
+
+
+
+
+
+
+
+
+
 
 ---
 
 ## Bug Fixes
-
-| Bug / Issue | Cause | Fix Implemented |
+*| Bug / Issue | Cause | Fix Implemented |
 |-------------|-------|-----------------|
 | Broken iframe link (Google Maps embed) | Used a copied URL that wasn't properly formatted for embedding | Replaced with the official embed code provided by Google Maps |
 | CSS `h1` headers overriding each other | Multiple conflicting `h1` rules | Merged into a single `h1` rule |
@@ -74,48 +100,65 @@ In summary, this website is being designed to better help dachshund owners under
 
 ---
 
-## Changes Done to the Code/Layout 
-
-- Changed the div columns from Bootstrap into custom ones to have more control over how they interact, allowing for fewer breakages to occur. This has also made the code less cluttered and cleaner.
-
-- Changes done to the Q&A section: changed from buttons to `<details>` tags to reduce the need for extensive CSS and to organize the HTML layout in a much simpler order.
-
----
-
-## Home page 
-
-### Header 
-- Displaying the site's name: **The Sausage Den**
-- Tagline: *"Your source of info for our sausage doggos"*
-
-### Navigation Bar 
-- Built using Bootstrap's navbar component 
-- Links:
-  - **Home** (active link)
-  - **Features** (active link)
-  - **About** (active link - will need to work on the page soon)
-
-### Main Content Sections
-- Divs containing information on dachshund coat types
-- History of dachshunds
-- Fun facts about dachshunds
-- Recommended toys and activities to keep them distracted and having fun
-
-### Footer 
-- Social media links:
-  - [Facebook](https://www.facebook.com)
-  - [Instagram](https://www.instagram.com)
-  - [Twitter](https://www.twitter.com)
-- Copyright © The Sausage Den
+## Changes Done to the Code/Layout
+- Replaced Bootstrap columns with custom ones for better control and cleaner code.  
+- Simplified Q&A section by switching from buttons to `<details>` tags.  
+- Fixed typos, improved accessibility with ARIA labels, and made images responsive.  
+- Improved navbar collapse behavior on mobile.  
+- Adjusted CSS for responsiveness across mobile, tablet, and desktop.  
 
 ---
 
-## Current Content
+## Site Pages / Structure
+
+### 1. `index.html` – Home Page
+- Header with site name and tagline.  
+- Navigation bar linking to all pages.  
+- Main content:  
+  - Dachshund coat types (smooth, long-haired, wire-haired).  
+  - History of dachshunds.  
+  - Fun facts (Olympic mascot, famous owners, lifespan).  
+- Cross-links to Q&A for training and coat care.  
+- Embedded Google Map.  
+- Footer with social media links and copyright.  
+
+---
+
+### 2. `about.html` – About Section
+- Header: *About Section – Why you can trust us*.  
+- Image and story of Mimi, the dachshund behind the site.  
+- Values: compassion, community, transparency.  
+- Video section: *Watch Mimi in action* (iframe placeholder).  
+- Testimonies: user quotes about improved coat health, reduced scratching, better diet.  
+
+---
+
+### 3. `q&a.html` – Q&A Section
+- Interactive dropdown FAQs using `<details>` and `<summary>`.  
+- Topics covered: coat care, bathing, diet, grooming, exercise, separation anxiety.  
+- Gallery of dachshunds (images of smooth-haired, wire-haired, puppy, Mimi).  
+- Training tips dropdown: starting early, short sessions, positive reinforcement, consistency.  
+- Footer: contact info and social links (Instagram, Facebook, Twitter).  
+
+
+---
+
+### 4. `formss.html` – Registration Form
+- Header: *Registration Form*.  
+- Form fields:  
+  - Full Name (first and last, required).  
+  - Dachshund type (dropdown: Miniature, Long Haired, Wire Haired, Smooth Haired).  
+  - Age verification (radio buttons: Yes/No).  
+  - Email address.  
+- Submit button: *register*.  
+- Purpose: community registration and prize draw entry.  
+
+---
+
+## Current Content For Paragraph Elements
 
 ### Dachshund Coat Types
-
-This area of the website demonstrates, through the use of a Bootstrap grid, the different characteristics of dachshund coats, showcasing the potential negatives of their coats and the ways to avoid these negative outcomes.
-
+*(Smooth, Long-haired, Wire-haired — positives and negatives)* 
 #### Smooth Coat 
 Smooth-haired Dachshunds have short, shiny hair that is very close to the skin. It's one of the most common types of coats. They require minimal grooming but offer little insulation, making them more prone to the cold.
 
@@ -150,9 +193,12 @@ Wire-haired dachshunds have a rough, wiry outer coat with a softer undercoat. Th
 - Requires regular hand-stripping or professional grooming
 - Can develop a strong odor if not properly maintained
 
----
-
 ## Common Symptoms Experienced by Dachshunds
+- IVDD  
+- Obesity  
+- Hip Dysplasia & Patellar Luxation  
+- Skin Conditions  
+- Dental Disease  
 
 ### Intervertebral Disc Disease (IVDD)
 - Common disc disease 
@@ -175,129 +221,20 @@ Wire-haired dachshunds have a rough, wiry outer coat with a softer undercoat. Th
 ### Dental Disease 
 - Small breeds in general suffer from tartar buildup, gum disease, and tooth loss
 
----
-
-## Form Section
-
-### Registration Form
-
-To register for our dachshund community, please provide the following information:
-
-#### Personal Information
-- **First Name** (required)
-- **Last Name** (required)
-- **Email Address** (required)
-
-#### Dachshund Details
-Select the type of dachshund you have:
-- Miniature
-- Long Haired
-- Wire Haired
-- Smooth Haired
-
-#### Age Verification
-You must confirm that you are over 18 years old to register.
-
-#### How to Register
-Complete all required fields and submit the form to join our community.
 
 ---
 
-## Q&A Section 
+## UX
+The user experience (UX) design of **The Sausage Den** focuses on:  
+- Clarity: Simple navigation with clear headings and simple layout.  
+- Accessibility: created a more responsive design using Bootstrap to ensure better usability across devices.  
+- Consistency: Unified styling across sections helps in reducing confusion and helps the user to quickly get the information they need.  
+- Engagement: Interactive Q&A section and gallery to keep users involved also have a couple of links from the home page that lead to the q&a page in order to better guide the visitor to the information they're looking for.  
+- Empathy: Content tailored to dachshund owners’ real concerns (health, grooming, exercise) i made sure to include my own personal side in order to provide a level of personal experience that can build onto my original purpose for creating this website. 
+ 
 
-This section provides an area that allows visitors to better enquire about frequently asked questions.
 
-### Features 
-- Dropdown layout using `<details>` and `<summary>` tags that, once clicked, will expand and provide the answer to the stated question
-
-### Questions & Answers
-
-#### What can I do to better care for my dog's coat?
-Regular brushing can help dislodge any hairs caught in the coat that may cause itching, resulting in non-stop scratching and patches appearing in the coat.
-
-**Smooth-haired:**
-- Smooth coats only need to be brushed once a week with a grooming mitt
-
-**Long-haired:** 
-- 3-4 times a week with a slicker brush can reduce any tangles in the coat and reduce the chances of matting
-
-**Wire-haired:**
-- Weekly brushing should be more common, as well as the inclusion of trimming
-
-**Nutrition:**
-- Proper nutrition can help maintain their coat and reduce the general chance of significant hair loss
-
-#### How often should I bathe my dachshund?
-Bathing is only needed when necessary—once every 1-2 months or whenever dirty. Ensure that a shampoo specifically for dogs is chosen to avoid drying out the skin.
-
-#### What should I feed my dachshund?
-Balancing out the diet with omega-3 and omega-6 fatty acids can help support healthier skin and a shinier coat.
-
-#### Do I need to take my dachshund to the groomers?
-- **Wire-haired dachshunds** benefit the most from grooming a couple of times a year, but not too often, as it helps keep them warm during colder times of the year
-- **Smooth-haired dachshunds** rarely require professional grooming and only need to be brushed regularly
-- **Long-haired dachshunds** can be taken to the groomers, with the main areas to focus on trimming being the paws, ears, and tail
-
-#### How much exercise should a dachshund need?
-Dachshunds need at most around 45 minutes to an hour per day, but it can vary depending on the amount of playtime they have at home. Be wary of any high-intensity movement as it can potentially affect their back.
-
-#### How prone are dachshunds to separation anxiety?
-Dachshunds are able to bond very closely to their owners, making it hard for them to be separated for long durations of time. With proper training, they can cope better.
 
 ---
 
-## About Section
 
-This section provides a short summary as to why one can trust this website, including my own experience with raising a dachshund, as it requires a lot of attention.
-
-### Features 
-- An image and brief explanation of my own personal dog will be provided. As she's a dachshund, this can help alleviate any enquiries as to whether I have personal experience
-- Contact information such as email address (for demonstration purposes) will be at the bottom in the footer
-
----
-
-## Gallery of Sausages
-
-Will include a collection of images showcasing different dachshunds.
-
----
-
-## Contact Us Section 
-
-Will include an area for contact information:
-- Email
-- Instagram
-- Facebook
-- Twitter
-
----
-
-## Navigation Bar Links
-
-- Welcome
-- Home 
-- Q&A
-- About
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-# milestoneproject1
