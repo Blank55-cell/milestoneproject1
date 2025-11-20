@@ -275,8 +275,8 @@ View the project wireframes: [Wireframe Design](https://balsamiq.cloud/sr1qhq1/p
 ### About Section
 ![AboutSection](docs/assets/testing/aboutsectionpass.png)
 
-### Forms Section 
-![Form](docs/assets/testing/formsectionpass.png)
+### Form Section 
+![Form](docs/assets/testing/formssectionpass.png)
 
 ### Q&A Section 
 ![Q&A](docs/assets/testing/qandapass.png)
