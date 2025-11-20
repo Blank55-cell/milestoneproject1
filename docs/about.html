@@ -5,7 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
       <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
-       <link rel="stylesheet" href="assets/css/mystyle.css">>
+       <link rel="stylesheet" href="assets/css/mystyle.css">
+       <!-- Typo: removed a extra >> in the link href -->
 
 </head>
 <body>
@@ -17,18 +18,24 @@
 
 <nav class="navbar navbar-expand-lg bg-body-tertiary">
   <div class="container-fluid">
-    <a class="navbar-brand" href="milestone-project1.html"></a>
-    <div class="navbar-collapse" id="navbarNav">
+    <a class="navbar-brand" href="index.html">Welcome</a>
+    <!-- Fixed: navbar was missing the navbar collapse class -->
+     <!-- Got rid of the navbar collapse as it uses javascript -->
+    
       <ul class="navbar-nav">
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="milestone-project1.html">Home</a>
+          <!--Fixed: corrected the navbar link -->
+          <a class="nav-link active" aria-current="page" href="index.html">Home</a>
         </li>
+        
         <li class="nav-item">
           <a class="nav-link" href="formss.html">Win £50!</a>
         </li>
+        
         <li class="nav-item">
           <a class="nav-link" href="about.html">About</a>
         </li>
+        
         <li class="nav-item">
           <a class="nav-link" href="q&a.html">Q&A</a>
         </li>
@@ -39,12 +46,13 @@
 
   
 <section class="about-section">
-  <h2 class="about-section">The dog behind the site: </h2>
+  <!-- Duplicate class removed -->
+  <h2>The dog behind the site: </h2>
 <br>
 
 <div>
-   
-  <img src="../assets/images/Mimi.jpeg" alt="Picture of Mimi a minature dachshund" class="mimi-pic">
+   <!-- Fixed: image link for mimi.jpeg was previously Mimi.jpeg corrected it to avoid github clashes. -->
+  <img src="assets/images/mimi.jpeg" alt="Picture of Mimi a minature dachshund" class="mimi-pic">
 
 </div>
 
@@ -77,7 +85,17 @@
   </ul>
 
 </section>
-    
+
+
+
+<section class="video-section my-5">
+  <h2>Watch Mimi in action</h2>
+  <div class="ratio ratio 16">
+
+    <iframe src></iframe>
+
+
+  </div>
 
 
 
@@ -90,7 +108,7 @@
   <div>
     <blockquote>"I was able to figure out why my dog was losing soo much hair!"</blockquote>
     <blockquote>"My lil one is able to run around so much more without stopping to furiously scratch themselves."</blockquote>
-    <blockquote>"Figured out the neccsary diet that i needed to feed my sausage dog and their coat is soo much healthier</blockquote>
+    <blockquote>"Figured out the neccsary diet that i needed to feed my sausage dog and their coat is soo much healthier"</blockquote>
   </div>
 </section>
     
