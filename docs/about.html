@@ -6,7 +6,6 @@
     <title>Document</title>
       <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
        <link rel="stylesheet" href="assets/css/mystyle.css">
-       <!-- Typo: removed a extra >> in the link href -->
 
 </head>
 <body class="body">
@@ -19,11 +18,8 @@
 <nav class="navbar navbar-expand-lg bg-body-tertiary">
   <div class="container-fluid">
     <a class="navbar-brand" href="index.html">Welcome</a>
-    <!-- Fixed: navbar was missing the navbar collapse class -->
-    <!-- Got rid of the navbar collapse as it uses javascript -->
     <ul class="navbar-nav">
       <li class="nav-item">
-        <!--Fixed: corrected the navbar link -->
         <a class="nav-link active" aria-current="page" href="index.html">Home</a>
       </li>
       <li class="nav-item"><a class="nav-link" href="formss.html">Win £50!</a></li>
@@ -34,11 +30,9 @@
 </nav>
 
 <section class="about-section">
-  <!-- Duplicate class removed -->
   <h2>The dog behind the site:</h2>
   <br>
   <div>
-    <!-- Fixed: image link for mimi.jpeg was previously Mimi.jpeg corrected it to avoid github clashes. -->
     <img src="assets/images/mimi.jpeg" alt="Mimi, a miniature dachshund" class="mimi-pic">
   </div>
 
@@ -52,11 +46,9 @@
   </p>
 
   <section class="video-section">
-    <!-- Fixed: empty heading replaced with meaningful text -->
     <h2>Video of Mimi</h2>
     <video controls style="width: 100%; max-width: 800px; border-radius: 8px;">
       <source src="assets/video/mimi.mp4" type="video/mp4">
-      <!-- Fixed: added fallback text for browsers that don't support video -->
       Your browser does not support the video tag. Video of Mimi.
     </video>
   </section>

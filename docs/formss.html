@@ -10,14 +10,12 @@
 
 </head>
 <body class="body">
-<!-- Navigation -->
 <nav class="navbar navbar-expand-lg bg-body-tertiary">                                               
    <div class="container-fluid">
      <a class="navbar-brand" href="index.html">Welcome</a>
    <div class="navbar-collapse" id="navbarNav">
    <ul class="navbar-nav">
      <li class="nav-item">
-<!--Fixed: Corrected the href link to the appropriate link -->
      <a class="nav-link active" aria-current="page" href="index.html">Home</a>
     </li>
     <li class="nav-item">
@@ -33,10 +31,8 @@
     </div>
   </div>
 </nav>
-<!-- Form Section -->
  <h1 id="form">Registration Form</h1>
     <form method="post" action="#">
-      <!-- Full Name -->
    <fieldset>
       <legend>Full Name</legend>
          <label for="firstName">First Name:</label>
@@ -44,7 +40,6 @@
                <label for="lastName">Last Name:</label>
             <input class="form-section" type="text" id="lastName" name="lastName" placeholder="Enter your last name" required>
    </fieldset>
-    <!-- Dachshund type -->
     <fieldset>
        <legend>What type of Dachshunds do you have?</legend>
           <label for="dachshundType">Select type:</label>
@@ -56,7 +51,6 @@
        <option value="smoothHaired">Smooth-haired</option>
     </select>
 </fieldset>
-<!-- Age confirmation -->
 <fieldset>
      <legend>Other Info</legend>
         <p>Are you over 18?</p>
@@ -65,10 +59,8 @@
            <input type="radio" id="ageNo" name="confirmAge" value="No">
            <label for="ageNo">No</label>
 </fieldset>
-          <!-- Email -->
           <label for="provideEmail">Please provide your email:</label>
           <input class="form-section" type="email" name="provideEmail" id="provideEmail" placeholder="Enter your email" required>
-          <!-- Submit -->
           <input type="submit" value="Register" aria-label="Submit registration form">
 </form>
 </body>
