@@ -267,20 +267,20 @@ View the project wireframes: [Wireframe Design](https://balsamiq.cloud/sr1qhq1/p
 ## Website Testing
 
 ### Home page Validation 
-![Homepage](assets/images/testing/homepagepass.png)  
+![Homepage](docs/assets/images/testing/homepagepass.png)  
 
 
 ### About Section
-![AboutSection](assets/images/testing/aboutsectionpass.png)
+![AboutSection](docs/assets/images/testing/aboutsectionpass.png)
 
 ### Forms Section 
-![Form](assets/images/testing/formsectionpass.png)
+![Form](docs/assets/images/testing/formsectionpass.png)
 
 ### Q&A Section 
-![Q&A](assets/images/testing/qandapass.png)
+![Q&A](docs/assets/images/testing/qandapass.png)
 
 ### CSS testing 
-![CSS](assets/images/testing/csspass.png)
+![CSS](docs/assets/images/testing/csspass.png)
 
 ### Lighthouse testing 
-![Lighthouse](assets/images/testing/lighthouse.png)
+![Lighthouse](docs/assets/images/testing/lighthouse.png)
