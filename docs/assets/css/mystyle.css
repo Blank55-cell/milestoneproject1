@@ -306,6 +306,8 @@ details ul {
   border-radius: 8px;
    padding: 10px 15px;
    color: #3d2817;
+   margin-bottom: 20px; 
+   /* Added a margin bottom to avoid using <br> */
 
 }
 

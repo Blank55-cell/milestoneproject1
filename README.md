@@ -43,7 +43,7 @@ In summary, this website is being designed to better help dachshund owners under
 - Bootstrap  
 - GitHub  
 - W3C (CSS & HTML)
-- Claude AI to help understand location of an issue on dev tools (didnt let me access the issue as it was hidden ad wouldnt let me get to it turns out it was an image not loading error 404)
+- Claude AI to help understand location of an issue on dev tools (didnt let me access the issue as it was hidden and wouldnt let me get to it turns out it was an image not loading error 404)
 - Chrome Lighthouse
 
 
@@ -109,6 +109,15 @@ Images used in this project:
 | Email input type wrong             | Email field used `type="text"`, so no validation or mobile support. | Changed to `type="email"` with `required` for proper validation. |
 | Inconsistent fieldset headings     | Labels were used instead of `<legend>` for section titles. | Replaced with `<legend>` elements (“Full Name”, “Other Info”). |
 | General cleanup                    | Duplicate attributes and inconsistent spacing reduced clarity. | Removed duplicates, fixed spacing, and polished structure. |
+| Extra closing `</section>` after video block | Stray tag that didn’t match any open section | Removed the extra `</section>` |
+| Empty `<h2>` in video section | Placeholder heading left blank | Added meaningful text: `Video of Mimi` |
+| Duplicate `aria` attribute in Fun Facts link | Mistyped as `aria aria-label` | Corrected to a single `aria-label` |
+| Alt text typo for Mimi’s image | “minature” misspelled | Updated to `Mimi, a miniature dachshund` |
+| Alt text consistency for coat images | Missing hyphenation in “Smooth haired” / “Wire haired” | Changed to “Smooth‑haired” and “Wire‑haired” |
+| Video fallback text unclear | Contained only “Mimi:” | Added proper fallback: `Your browser does not support the video tag. Video of Mimi.` |
+| Typos in text content | Words like “thats”, “occured”, “We.re”, “commited”, “transparaent”, “neccsary”, “soo” | Corrected to “that’s”, “occurred”, “We’re”, “committed”, “transparent”, “necessary”, “so” |
+| Meta keywords sloppy formatting | Extra spaces and trailing comma | Cleaned to `dog, sausage dog, dachshund` |
+| Missing closing `</body>` before `</html>` (earlier version) | Body element wasn’t properly closed | Added `</body>` before `</html>` |
 
 ---
 
@@ -243,6 +252,10 @@ The user experience (UX) design of **The Sausage Den** focuses on:
 - Consistency: Unified styling across sections helps in reducing confusion and helps the user to quickly get the information they need.  
 - Engagement: Interactive Q&A section and gallery to keep users involved also have a couple of links from the home page that lead to the q&a page in order to better guide the visitor to the information they're looking for.  
 - Empathy: Content tailored to dachshund owners’ real concerns (health, grooming, exercise) i made sure to include my own personal side in order to provide a level of personal experience that can build onto my original purpose for creating this website. 
+
+- Balsamic wireframe link: 
+View the project wireframes: [Wireframe Design](https://balsamiq.cloud/sr1qhq1/p3lcc0z)
+
 
 
 
