@@ -271,16 +271,16 @@ View the project wireframes: [Wireframe Design](https://balsamiq.cloud/sr1qhq1/p
 
 
 ### About Section
-![AboutSection](docs/assets/images/testing/aboutsectionpass.png)
+![AboutSection](docs/assets/testing/aboutsectionpass.png)
 
 ### Forms Section 
-![Form](docs/assets/images/testing/formsectionpass.png)
+![Form](docs/assets/testing/formsectionpass.png)
 
 ### Q&A Section 
-![Q&A](docs/assets/images/testing/qandapass.png)
+![Q&A](docs/assets/testing/qandapass.png)
 
 ### CSS testing 
-![CSS](docs/assets/images/testing/csspass.png)
+![CSS](docs/assets/testing/csspass.png)
 
 ### Lighthouse testing 
-![Lighthouse](docs/assets/images/testing/lighthouse.png)
+![Lighthouse](docs/assets/testing/lighthouse.png)
