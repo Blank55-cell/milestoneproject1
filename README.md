@@ -269,7 +269,7 @@ View the project wireframes: [Wireframe Design](https://balsamiq.cloud/sr1qhq1/p
 ## Website Testing
 
 ### Home page Validation 
-![Homepage](docs/assets/images/testing/homepagepass.png)  
+![Homepage](docs/assets/testing/homepagepass.png)  
 
 
 ### About Section
