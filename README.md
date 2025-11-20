@@ -90,34 +90,36 @@ Images used in this project:
 ---
 
 ## Bug Fixes
-*| Bug / Issue | Cause | Fix Implemented |
+| Bug / Issue | Cause | Fix Implemented |
 |-------------|-------|-----------------|
 | Broken iframe link (Google Maps embed) | Used a copied URL that wasn't properly formatted for embedding | Replaced with the official embed code provided by Google Maps |
-| CSS `h1` headers overriding each other | Multiple conflicting `h1` rules | Merged into a single `h1` rule |
-| Duplicate CSS rules (`section-history`, `section-socials`) | Repeated selectors causing conflicts | Combined into single rules for each section |
-| Wrong CSS property (`line-height` vs `list-style`) | Typo in property name | Corrected to `line-height` |
-| Border not rendering | Forgot to add `solid` style | Fixed with `border: 1px solid ...` |
+| CSS h1 headers overriding each other | Multiple conflicting h1 rules | Merged into a single h1 rule |
+| Duplicate CSS rules (section-history, section-socials) | Repeated selectors causing conflicts | Combined into single rules for each section |
+| Wrong CSS property (line-height vs list-style) | Typo in property name | Corrected to line-height |
+| Border not rendering | Forgot to add solid style | Fixed with border: 1px solid ... |
 | CSS layering issues | Rules applied in wrong order | Reorganized CSS file for proper cascade |
-| Image paths breaking | Folder restructuring changed relative paths | Updated `src` attributes to match new folder layout |
+| Image paths breaking | Folder restructuring changed relative paths | Updated src attributes to match new folder layout |
 | Navbar breaking | Bootstrap collapse not working | Adjusted markup and IDs for proper Bootstrap behavior |
 | Q&A section too CSS-heavy | Used buttons requiring extra styling | Simplified with `<details>` and `<summary>` tags |
 | General spelling mistakes in CSS | Typos in property names | Corrected manually and tested with validation tools |
-| Excessive `<br>` and empty `<label>` tags | Too many `<br>` tags for spacing and unused empty labels cluttered the form. | Removed extra `<br>` tags and deleted empty labels to simplify the markup. |
-| `<select>` missing attributes      | The `<select>` element had no `id` or `name`, so it wasn’t usable in submissions. | Added `id="dachshundType"` and `name="dachshundType"`, plus `required`. |
-| `<option>` values incorrect        | Options had empty values and one was misspelled (“Minature”). | Added meaningful values (`miniature`, `longHaired`, etc.) and fixed spelling. |
-| Radio button label mismatch        | Labels pointed to the wrong `id`, breaking accessibility. | Corrected labels so “Yes” links to `ageYes` and “No” links to `ageNo`. |
-| Email input type wrong             | Email field used `type="text"`, so no validation or mobile support. | Changed to `type="email"` with `required` for proper validation. |
-| Inconsistent fieldset headings     | Labels were used instead of `<legend>` for section titles. | Replaced with `<legend>` elements (“Full Name”, “Other Info”). |
-| General cleanup                    | Duplicate attributes and inconsistent spacing reduced clarity. | Removed duplicates, fixed spacing, and polished structure. |
+| Excessive `<br>` and empty `<label>` tags | Too many `<br>` tags for spacing and unused empty labels cluttered the form | Removed extra `<br>` tags and deleted empty labels to simplify the markup |
+| `<select>` missing attributes | The `<select>` element had no id or name | Added `id="dachshundType"` and `name="dachshundType"`, plus `required` |
+| `<option>` values incorrect | Options had empty values and one was misspelled (“Minature”) | Added meaningful values and fixed spelling |
+| Radio button label mismatch | Labels pointed to the wrong id | Corrected labels so “Yes” links to `ageYes` and “No” links to `ageNo` |
+| Email input type wrong | Email field used `type="text"` | Changed to `type="email"` with `required` |
+| Inconsistent fieldset headings | Labels were used instead of `<legend>` | Replaced with `<legend>` elements |
+| General cleanup | Duplicate attributes and inconsistent spacing | Removed duplicates, fixed spacing, and polished structure |
 | Extra closing `</section>` after video block | Stray tag that didn’t match any open section | Removed the extra `</section>` |
-| Empty `<h2>` in video section | Placeholder heading left blank | Added meaningful text: `Video of Mimi` |
-| Duplicate `aria` attribute in Fun Facts link | Mistyped as `aria aria-label` | Corrected to a single `aria-label` |
-| Alt text typo for Mimi’s image | “minature” misspelled | Updated to `Mimi, a miniature dachshund` |
-| Alt text consistency for coat images | Missing hyphenation in “Smooth haired” / “Wire haired” | Changed to “Smooth‑haired” and “Wire‑haired” |
-| Video fallback text unclear | Contained only “Mimi:” | Added proper fallback: `Your browser does not support the video tag. Video of Mimi.` |
-| Typos in text content | Words like “thats”, “occured”, “We.re”, “commited”, “transparaent”, “neccsary”, “soo” | Corrected to “that’s”, “occurred”, “We’re”, “committed”, “transparent”, “necessary”, “so” |
+| Empty `<h2>` in video section | Placeholder heading left blank | Added meaningful text: Video of Mimi |
+| Duplicate aria attribute in Fun Facts link | Mistyped as `aria aria-label` | Corrected to a single `aria-label` |
+| Alt text typo for Mimi’s image | “minature” misspelled | Updated to “miniature” |
+| Alt text consistency for coat images | Missing hyphenation | Changed to “Smooth‑haired” and “Wire‑haired” |
+| Video fallback text unclear | Contained only “Mimi:” | Added proper fallback text |
+| Typos in text content | Words like “thats”, “occured”, “We.re” | Corrected to proper spelling |
 | Meta keywords sloppy formatting | Extra spaces and trailing comma | Cleaned to `dog, sausage dog, dachshund` |
-| Missing closing `</body>` before `</html>` (earlier version) | Body element wasn’t properly closed | Added `</body>` before `</html>` |
+| Missing closing `</body>` before `</html>` | Body element wasn’t properly closed | Added `</body>` before `</html>` |
+
+
 
 ---
 
