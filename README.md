@@ -13,7 +13,7 @@ A website dedicated to helping dachshund owners better understand their dogs’ 
 - [Credits](#credits)
 - [Bug Fixes](#bug-fixes)
 - [Changes Done to the Code/Layout](#changes-done-to-the-codelayout)
-- [Site Pages / Structure](#site-pages/structure)
+- [Site Pages Structure](#site-pages-structure)
   - [index.html – Home Page](#1-indexhtml--home-page)
   - [about.html – About Section](#2-abouthtml--about-section)
   - [q&a.html – Q&A Section](#3-qahtml--qa-section)
@@ -24,6 +24,7 @@ A website dedicated to helping dachshund owners better understand their dogs’ 
 - [UX](#ux)
 - [Site Structure](#site-structure)
 - [Future Improvements](#future-improvements)
+- (Website testing)
 
 ---
 
@@ -41,6 +42,10 @@ In summary, this website is being designed to better help dachshund owners under
 - CSS  
 - Bootstrap  
 - GitHub  
+- W3C (CSS & HTML)
+- Claude AI to help understand location of errors
+- Chrome Lighthouse
+
 
 ---
 
@@ -97,6 +102,13 @@ Images used in this project:
 | Navbar breaking | Bootstrap collapse not working | Adjusted markup and IDs for proper Bootstrap behavior |
 | Q&A section too CSS-heavy | Used buttons requiring extra styling | Simplified with `<details>` and `<summary>` tags |
 | General spelling mistakes in CSS | Typos in property names | Corrected manually and tested with validation tools |
+| Excessive `<br>` and empty `<label>` tags | Too many `<br>` tags for spacing and unused empty labels cluttered the form. | Removed extra `<br>` tags and deleted empty labels to simplify the markup. |
+| `<select>` missing attributes      | The `<select>` element had no `id` or `name`, so it wasn’t usable in submissions. | Added `id="dachshundType"` and `name="dachshundType"`, plus `required`. |
+| `<option>` values incorrect        | Options had empty values and one was misspelled (“Minature”). | Added meaningful values (`miniature`, `longHaired`, etc.) and fixed spelling. |
+| Radio button label mismatch        | Labels pointed to the wrong `id`, breaking accessibility. | Corrected labels so “Yes” links to `ageYes` and “No” links to `ageNo`. |
+| Email input type wrong             | Email field used `type="text"`, so no validation or mobile support. | Changed to `type="email"` with `required` for proper validation. |
+| Inconsistent fieldset headings     | Labels were used instead of `<legend>` for section titles. | Replaced with `<legend>` elements (“Full Name”, “Other Info”). |
+| General cleanup                    | Duplicate attributes and inconsistent spacing reduced clarity. | Removed duplicates, fixed spacing, and polished structure. |
 
 ---
 
@@ -109,7 +121,7 @@ Images used in this project:
 
 ---
 
-## Site Pages/Structure
+## Site Pages Structure
 
 ### 1. `index.html` – Home Page
 - Header with site name and tagline.  

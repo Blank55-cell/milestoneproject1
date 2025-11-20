@@ -41,76 +41,57 @@
 
 
     
+<h1 id="form">Registration Form</h1>
 
-    <h1 id="form">Registration Form</h1>
-    <br>
-    <form method="post">
-        <fieldset>
-            <legend>Full Name:</legend>
-        <label for="firstName">First Name:</label>
-        <input class="form-section" type="text" id="firstName" name="firstName" placeholder="Enter your first name" required> 
-        <br>
-        <br>
-        <label for="lastName">Last Name</label>
-        <input class="form-section" type="text" id="lastName" name="lastName" placeholder="Enter your last name" required>
-        </fieldset>
-        <br>
-       
-      <fieldset>
-       <label for="dachshundType">What type of Dachshunds do you have:</label>
-        <label for="dachshundType" name="dachshundType"></label>
-        <br>
-       
-        <select name="" id="">
-          <option value="">--Select--</option>
-            <option value="">Minature</option>
-            <option value="">Long Haired</option>
-            <option value="">Wire Haired</option>
-            <option value="">Smooth Haired</option>
-        </select>    
-        </fieldset>
-        <br>
-        <br>
-        
+<form method="post">
+  <!-- Full Name -->
+  <fieldset>
+    <legend>Full Name</legend>
 
+    <label for="firstName">First Name:</label>
+    <input class="form-section" type="text" id="firstName" name="firstName" placeholder="Enter your first name" required>
+    <br><br>
 
-        <fieldset>
-          <legend>Other info:</legend>
-        <label for="">Are you over 18:</label>
-        
-        
-       
+    <label for="lastName">Last Name:</label>
+    <input class="form-section" type="text" id="lastName" name="lastName" placeholder="Enter your last name" required>
+  </fieldset>
+  <br>
 
-        <label for="ageNo">Yes</label>
-        <input type="radio" id="ageYes" name="confirmAge" value="Yes" required>
+  <!-- Dachshund type -->
+  <fieldset>
+    <legend>What type of Dachshunds do you have?</legend>
+    <label for="dachshundType">Select type:</label>
+    <select id="dachshundType" name="dachshundType" required>
+      <option value="">--Select--</option>
+      <option value="miniature">Miniature</option>
+      <option value="longHaired">Long Haired</option>
+      <option value="wireHaired">Wire Haired</option>
+      <option value="smoothHaired">Smooth Haired</option>
+    </select>
+  </fieldset>
+  <br>
 
-        <label for="ageNo">No</label>
-        <input type="radio" id="ageNo" name="confirmAge" value="No" required>
-        <br>
-        <br> 
-        
-      </fieldset>
+  <!-- age confirmation -->
+  <fieldset>
+    <legend>Other Info</legend>
+    <p>Are you over 18?</p>
 
-        <label for="provideEmail">Please provide your email:</label>
-        <input class="form-section" type="text" name="provideEmail" id="provideEmail" placeholder="Please enter your name:">
+    <input type="radio" id="ageYes" name="confirmAge" value="Yes" required>
+    <label for="ageYes">Yes</label>
 
+    <input type="radio" id="ageNo" name="confirmAge" value="No" required>
+    <label for="ageNo">No</label>
+  </fieldset>
+  <br>
 
-        <br>
-        <label for=""></label>
-        <br>
-        <br>
-       
-        <input type="submit" value="register" >
+  <!-- email -->
+  <label for="provideEmail">Please provide your email:</label>
+  <input class="form-section" type="email" name="provideEmail" id="provideEmail" placeholder="Enter your email" required>
+  <br><br>
 
-        
-       
-
-
-
-
-
-
-    </form>
+  <!-- submit -->
+  <input type="submit" value="Register">
+</form>
 
 
 </body>
