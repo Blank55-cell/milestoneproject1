@@ -13,7 +13,7 @@ A website dedicated to helping dachshund owners better understand their dogs’ 
 - [Credits](#credits)
 - [Bug Fixes](#bug-fixes)
 - [Changes Done to the Code/Layout](#changes-done-to-the-codelayout)
-- [Site Pages](#site-pages)
+- [Site Pages / Structure](#site-pages/structure)
   - [index.html – Home Page](#1-indexhtml--home-page)
   - [about.html – About Section](#2-abouthtml--about-section)
   - [q&a.html – Q&A Section](#3-qahtml--qa-section)
@@ -109,7 +109,7 @@ Images used in this project:
 
 ---
 
-## Site Pages / Structure
+## Site Pages/Structure
 
 ### 1. `index.html` – Home Page
 - Header with site name and tagline.  
@@ -231,7 +231,7 @@ The user experience (UX) design of **The Sausage Den** focuses on:
 - Consistency: Unified styling across sections helps in reducing confusion and helps the user to quickly get the information they need.  
 - Engagement: Interactive Q&A section and gallery to keep users involved also have a couple of links from the home page that lead to the q&a page in order to better guide the visitor to the information they're looking for.  
 - Empathy: Content tailored to dachshund owners’ real concerns (health, grooming, exercise) i made sure to include my own personal side in order to provide a level of personal experience that can build onto my original purpose for creating this website. 
- 
+
 
 
 
