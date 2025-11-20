@@ -10,89 +10,78 @@
 
 </head>
 <body class="body">
-   
-<nav class="navbar navbar-expand-lg bg-body-tertiary">                                               
-  <div class="container-fluid">
-    <a class="navbar-brand" href="index.html">Welcome</a>
-    <div class="navbar-collapse" id="navbarNav">
-      <ul class="navbar-nav">
-        <li class="nav-item">
-          <!--Fixed: Corrected the href link to the appropriate link -->
-          <a class="nav-link active" aria-current="page" href="index.html">Home</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="formss.html">Win £50!</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="about.html">About</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="q&a.html">Q&A</a>
-        </li>
-    
-      </ul>
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">                                               
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html">Welcome</a>
+      <div class="navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <!--Fixed: Corrected the href link to the appropriate link -->
+            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="formss.html">Win £50!</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="q&a.html">Q&A</a>
+          </li>
+        </ul>
+      </div>
     </div>
-  </div>
-</nav>
+  </nav>
 
-    
+  <!-- Form Section -->
+  <h1 id="form">Registration Form</h1>
 
-  
+  <form method="post" action="#">
+    <!-- Full Name -->
+    <fieldset>
+      <legend>Full Name</legend>
 
+      <label for="firstName">First Name:</label>
+      <input class="form-section" type="text" id="firstName" name="firstName" placeholder="Enter your first name" required>
 
-    
-<h1 id="form">Registration Form</h1>
+      <label for="lastName">Last Name:</label>
+      <input class="form-section" type="text" id="lastName" name="lastName" placeholder="Enter your last name" required>
+    </fieldset>
 
-<form method="post">
-  <!-- Full Name -->
-  <fieldset>
-    <legend>Full Name</legend>
+    <!-- Dachshund type -->
+    <fieldset>
+      <legend>What type of Dachshunds do you have?</legend>
+      <label for="dachshundType">Select type:</label>
+      <select id="dachshundType" name="dachshundType" required>
+        <option value="">--Select--</option>
+        <option value="miniature">Miniature</option>
+        <option value="longHaired">Long‑haired</option>
+        <option value="wireHaired">Wire‑haired</option>
+        <option value="smoothHaired">Smooth‑haired</option>
+      </select>
+    </fieldset>
 
-    <label for="firstName">First Name:</label>
-    <input class="form-section" type="text" id="firstName" name="firstName" placeholder="Enter your first name" required>
-    <br><br>
+    <!-- Age confirmation -->
+    <fieldset>
+      <legend>Other Info</legend>
+      <p>Are you over 18?</p>
 
-    <label for="lastName">Last Name:</label>
-    <input class="form-section" type="text" id="lastName" name="lastName" placeholder="Enter your last name" required>
-  </fieldset>
-  <br>
+      <input type="radio" id="ageYes" name="confirmAge" value="Yes" required>
+      <label for="ageYes">Yes</label>
 
-  <!-- Dachshund type -->
-  <fieldset>
-    <legend>What type of Dachshunds do you have?</legend>
-    <label for="dachshundType">Select type:</label>
-    <select id="dachshundType" name="dachshundType" required>
-      <option value="">--Select--</option>
-      <option value="miniature">Miniature</option>
-      <option value="longHaired">Long Haired</option>
-      <option value="wireHaired">Wire Haired</option>
-      <option value="smoothHaired">Smooth Haired</option>
-    </select>
-  </fieldset>
-  <br>
+      <input type="radio" id="ageNo" name="confirmAge" value="No">
+      <label for="ageNo">No</label>
+    </fieldset>
 
-  <!-- age confirmation -->
-  <fieldset>
-    <legend>Other Info</legend>
-    <p>Are you over 18?</p>
+    <!-- Email -->
+    <label for="provideEmail">Please provide your email:</label>
+    <input class="form-section" type="email" name="provideEmail" id="provideEmail" placeholder="Enter your email" required>
 
-    <input type="radio" id="ageYes" name="confirmAge" value="Yes" required>
-    <label for="ageYes">Yes</label>
-
-    <input type="radio" id="ageNo" name="confirmAge" value="No" required>
-    <label for="ageNo">No</label>
-  </fieldset>
-  <br>
-
-  <!-- email -->
-  <label for="provideEmail">Please provide your email:</label>
-  <input class="form-section" type="email" name="provideEmail" id="provideEmail" placeholder="Enter your email" required>
-  <br><br>
-
-  <!-- submit -->
-  <input type="submit" value="Register">
-</form>
-
+    <!-- Submit -->
+    <input type="submit" value="Register" aria-label="Submit registration form">
+  </form>
 
 </body>
 </html>
