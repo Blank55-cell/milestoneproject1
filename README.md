@@ -1,4 +1,4 @@
-# The Sausage Den
+# The Sausage Den:
 
 > **Your source of info for our sausage doggos**  
 A website dedicated to helping dachshund owners better understand their dogs’ coats, health risks, and care needs.  
