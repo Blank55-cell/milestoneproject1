@@ -65,12 +65,12 @@ Images used in this project:
 
 | Image | Photographer |
 |-------|--------------|
-| Wire-haired | [Sandra Grünewald](https://unsplash.com/photos/mZostdE4kUY) |
-| Smooth-haired | [Hayden Patmore](https://unsplash.com/photos/ohz49NaR9kM) |
-| Long-haired | [Darren Richardson](https://unsplash.com/photos/5IQ6cdiS3GM) |
-| Dog-treats | [okeykat](https://unsplash.com/photos/w6elADh_jww) |
-| Grass-2 | [Lorren & Loki](https://unsplash.com/photos/Bf07Cxq1aH0) |
-| Dpuppy | [Carlos Ibáñez](https://unsplash.com/photos/-VscXAULPao) |
+| wirehaired.jpg | [Sandra Grünewald](https://unsplash.com/photos/mZostdE4kUY) |
+| smoothhaired.jpg | [Hayden Patmore](https://unsplash.com/photos/ohz49NaR9kM) |
+| longhaired.jpg | [Darren Richardson](https://unsplash.com/photos/5IQ6cdiS3GM) |
+| dogtreats.jpg | [okeykat](https://unsplash.com/photos/w6elADh_jww) |
+| grass.jpg | [Lorren & Loki](https://unsplash.com/photos/Bf07Cxq1aH0) |
+| dpuppy.jpg | [Carlos Ibáñez](https://unsplash.com/photos/-VscXAULPao) |
 
 ---
 
