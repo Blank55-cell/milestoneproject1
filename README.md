@@ -43,7 +43,7 @@ In summary, this website is being designed to better help dachshund owners under
 - Bootstrap  
 - GitHub  
 - W3C (CSS & HTML)
-- Claude AI to help understand location of an issue on dev tools (didnt let me access the issue as it was hidden and wouldnt let me get to it turns out it was an image not loading error 404)
+- Claude AI to help understand location of an issue on dev tools (didn't let me access the issue as it was hidden and wouldnt let me get to it turns out it was an image not loading error 404)
 - Chrome Lighthouse
 
 
@@ -118,6 +118,7 @@ Images used in this project:
 | Typos in text content | Words like “thats”, “occured”, “We.re” | Corrected to proper spelling |
 | Meta keywords sloppy formatting | Extra spaces and trailing comma | Cleaned to `dog, sausage dog, dachshund` |
 | Missing closing `</body>` before `</html>` | Body element wasn’t properly closed | Added `</body>` before `</html>` |
+| Hidden image loading error 404 | Dev tools wouldn't allow access to the hidden error; image file was missing or path was incorrect | Used Claude AI to identify the hidden 404 error; corrected the image path/file |
 
 
 
