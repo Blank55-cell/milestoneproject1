@@ -404,6 +404,8 @@ Here are the steps I followed to publish the project:
 6. After a few moments, GitHub Pages generated a live link to the website.
 
 **Live Site:**  
+https://blank55-cell.github.io/milestoneproject1/
+- **Live Site** 
 
 
 ---
