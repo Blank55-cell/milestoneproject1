@@ -1,3 +1,4 @@
+/* Base styles */
  html  {
 
   font-size: 15px;
@@ -16,6 +17,7 @@
 
 
 
+/* Headings */
  h1 {
   font-size: 2.4rem;
   margin: 0;
@@ -57,6 +59,7 @@
 }
 
 
+/* Navigation */
  nav > div {
   background-color: rgb(233, 233, 237);
 }
@@ -78,6 +81,7 @@
   padding: 8px 15px;
 }
 
+/* Forms */
  form {
    max-width: 28rem;
   margin: auto;
@@ -108,6 +112,7 @@ input[type="submit"]:hover {
   background-color: #a1887f;
 }
 
+/* Titles */
 .title {
 
    text-align: center;
@@ -117,6 +122,7 @@ input[type="submit"]:hover {
 
 }
 
+/* Boxes */
  .div-box {
 
   background: #bcaaa4;
@@ -141,6 +147,7 @@ input[type="submit"]:hover {
 
 
 
+/* Section about history */
 .section-history h2 {
   margin: 30px 0;
 padding: 15px;
@@ -160,6 +167,7 @@ color: #fff;
 
 }
 
+/* Fun facts section */
 .fun-facts { 
 
   margin: 30px 0;
@@ -180,6 +188,7 @@ color: #fff;
 
 
 
+/* Section box layout */
   .section-box {
   display: flex;
     flex-wrap: wrap;
@@ -187,6 +196,7 @@ color: #fff;
     padding: 20px;
 }
 
+/* Centered elements */
 .p-centered {
   text-align: center;
 }
@@ -200,6 +210,7 @@ color: #fff;
 
 
 
+/* Background images */
 #main-header   {
    background-image: url(../images/dogtreats.jpg);
   background-repeat: no-repeat;
@@ -233,6 +244,7 @@ color: #fff;
 
   }
 
+/* About section */
  #about-header {
   text-align: center;
   padding: 40px 20px;
@@ -259,6 +271,7 @@ color: #fff;
 
 
 
+
 .qa-section {
 
    margin: 30px auto;
@@ -266,6 +279,7 @@ color: #fff;
 
 }
 
+/* Changed color setting to a more warm and vibrant color scheme and added a bit more padding */
 summary.button {
   cursor: pointer;
   font-weight: bold;
@@ -317,6 +331,7 @@ details ul {
 
 
 
+/* Gallery */
 .gallery-wrapped  {
 
   display: flex;
@@ -346,6 +361,7 @@ details ul {
    padding: 4px;
 
 }
+/* Tablet: grid 2 per row */
 @media (min-width:601px) and (max-width:1024px) {
     #div-gallery img {
       flex: 1 1 45%;
@@ -354,6 +370,7 @@ details ul {
      
 }
  
+     /*Phone: 1 per row  */
      @media (max-width:600px) {
       #div-gallery img {
         flex: 1 1 100%;
@@ -365,6 +382,7 @@ details ul {
 
 
 
+  /* About section   */
  .about-section  {
    padding: 20px;
   max-width: 800px;
@@ -417,6 +435,19 @@ details ul {
   line-height: 20px;
 }
 
+/* Video section */
+.video-section video {
+  width: 100%;
+  max-width: 500px; 
+  display: block;
+  margin: 0 auto;
+  border-radius: 8px;
+}
+
+
+
+
+/* Testimonies */
   .testimonies-about  {
 
   margin: 30px 0;
@@ -444,6 +475,7 @@ details ul {
 
 }
 
+/* Socials */
  .section-socials {
 
   clear: both;
@@ -474,6 +506,7 @@ details ul {
 }
 
 
+/* Mobile portability */
 @media (max-width: 600px) {
   html {
     font-size: 14px; 
@@ -483,16 +516,19 @@ details ul {
     margin: 0; 
   }
 
+  
   .navbar-nav {
     flex-direction: column;
     text-align: center;
   }
 
+  
   img {
     max-width: 100%;
     height: auto;
   }
 
+ 
   .section-box {
     flex-direction: column;
     align-items: center;

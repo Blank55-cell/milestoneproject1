@@ -22,14 +22,17 @@ A website dedicated to helping dachshund owners better understand their dogs’ 
   - [Dachshund Coat Types](#dachshund-coat-types)
 - [Common Symptoms Experienced by Dachshunds](#common-symptoms-experienced-by-dachshunds)
 - [UX](#ux)
-- [Site Structure](#site-structure)
-- [Future Improvements](#future-improvements)
+- [Site Structure](#site-pages-structure)
 - [Website testing](#website-testing)
+- [Screenshots](#screenshots)
+  - [Q&A + Lighthouse](#qa--lighthouse)
+  - [Form + Lighthouse](#form--lighthouse)
+  - [About + Lighthouse](#about--lighthouse)
 
 ---
 
 ## Main Goal
-The aim of creating this website is to provide a source of information that can help dachshund owners better understand the aspects of dachshunds and how they behave, and more importantly, the potential ailments they can develop.  
+- The aim of creating this website is to provide a source of information that can help dachshund owners better understand the aspects of dachshunds and how they behave, and more importantly, the potential ailments they can develop.  
 
 For example, complicated back problems are the more prevalent issues that can occur, with the most debilitating one being **IVDD (Intervertebral Disc Disease)**. This can lead to a costly and demoralizing journey, and for that reason I want to incorporate features that allow dachshund owners to enquire and better understand the potential risks of this disease and other ailments so that it can help reduce the potential risks of these issues occurring.
 
@@ -38,13 +41,14 @@ In summary, this website is being designed to better help dachshund owners under
 ---
 
 ## Tools Used
-- HTML5  
-- CSS  
-- Bootstrap  
-- GitHub  
-- W3C (CSS & HTML)
-- Claude AI to help understand location of an issue on dev tools (didn't let me access the issue as it was hidden and wouldnt let me get to it turns out it was an image not loading error 404)
-- Chrome Lighthouse
+## Tools Used
+- **Chrome DevTools** for debugging  
+- **Chrome Lighthouse** for performance and accessibility checks  
+- **W3C HTML & CSS Validators**  
+- **Balsamiq** for wireframes  
+- **Claude AI** used once to help identify a hidden 404 image path error  
+- **CloudConvert** used to convert the video to MP4  
+
 
 
 ---
@@ -74,20 +78,6 @@ Images used in this project:
 
 ---
 
-
-
-
-
-
-
-
-
-
-
-
-
-
----
 
 ## Bug Fixes
 | Bug / Issue | Cause | Fix Implemented |
@@ -285,5 +275,211 @@ View the project wireframes: [Wireframe Design](https://balsamiq.cloud/sr1qhq1/p
 ### CSS testing 
 ![CSS](docs/assets/testing/csspass.png)
 
+---
+
 ### Lighthouse testing 
-![Lighthouse](docs/assets/testing/lighthouse.png)
+![Index + Lighthouse](docs/assets/testing/lighthouse.png)
+
+![Form + Lighthouse](docs/assets/testing/formlighthouse.png)
+
+![About + Lighthouse](docs/assets/testing/aboutlighthouse.png)
+
+![Q&A + Lighthouse](docs/assets/testing/qandalighthouse.png)
+
+
+--
+
+# Test Plan & Manual Testing Procedure
+
+Below is a record of the manual testing carried out across all four pages of the site.  
+Tests focus on functionality, usability, and responsiveness.  
+Some small syntax‑style issues were found during testing and corrected.
+
+---
+## Home Page — `index.html`
+
+| Test Category | Feature | Test Description | Expected Result | Actual Result |
+|--------------|---------|------------------|----------------|---------------|
+| Functionality | Navbar links | Clicked through each link. | All links should work. | All fine, but the “Win £50!” link had an extra space inside the `<a>` tag. |
+| | Header section | Checked the heading and intro text. | Should display properly. | Looked good, though `<p id="p">` had some odd spacing from extra whitespace. |
+| | Coat type images | Made sure all images load. | All images should load. | One image path had a capital letter, so it briefly showed as broken. |
+| | Fun Facts link | Tested the link to Q&A. | Should navigate correctly. | Worked, but the `aria-label` had a small typo. |
+| | Google Maps iframe | Checked the map embed. | Should load normally. | Loaded, but the fixed width caused horizontal scrolling. |
+| | Footer links | Tried each social link. | Should open in new tabs. | All worked, but one link was missing `rel="noopener"`. |
+| Usability | Headings | Looked over heading order. | Should follow a clear structure. | Two `<h2>` tags had uneven margins. |
+| | Paragraphs | Checked readability. | Should be easy to read. | One paragraph had an unnecessary `<br>` tag. |
+| | Alt text | Reviewed alt descriptions. | Should be descriptive. | One alt text missing a hyphen. |
+| | Keyboard navigation | Tabbed through the page. | Should follow a logical order. | Focus jumped once because of an empty `<div>`. |
+| Responsiveness | Navbar collapse | Tested on mobile. | Should collapse properly. | Worked, but the toggle icon sat slightly off‑center. |
+| | Coat type boxes | Checked how boxes stack. | Should stack neatly. | One box had extra margin pushing it out of line. |
+| | Images | Tested image scaling. | Should resize properly. | One image had an inline width stopping it from scaling. |
+| | Iframe | Checked on mobile. | Should not overflow. | Overflow happened due to fixed width. |
+| | Footer layout | Checked spacing. | Should stack neatly. | Footer links felt a bit cramped. |
+
+
+## Registration Form — `formss.html`
+
+| Test Category | Feature | Test Description | Expected Result | Actual Result |
+|--------------|---------|------------------|----------------|---------------|
+| Functionality | Navbar links | Clicked each link. | All links should work. | All fine, but the “Home” link had extra spacing inside the `<li>`. |
+| | First Name field | Tested required field. | Should not allow empty submission. | Worked, but the placeholder sat slightly off due to padding. |
+| | Last Name field | Same test. | Should validate correctly. | Worked fine. |
+| | Dropdown | Tested required attribute. | Should require a selection. | Worked, but the `<option>` tags were indented inconsistently. |
+| | Radio buttons | Tested Yes/No. | Only one selectable. | Worked, but labels didn’t line up because they weren’t set to `inline-block`. |
+| | Email field | Tried invalid emails. | Should reject invalid formats. | Error outline looked clipped because of input styling. |
+| | Submit button | Tested form submission. | Should only submit when valid. | Worked, but the button shifted slightly when pressed due to `:active` styling. |
+| Usability | Fieldsets | Checked grouping. | Should be clear. | Clear enough, but spacing between fieldsets was inconsistent. |
+| | Labels | Tested label focus. | Should focus the right input. | One label had the wrong `for=""` value. |
+| | Placeholder text | Checked clarity. | Should be readable. | Email placeholder got cut off on small screens. |
+| | Keyboard navigation | Tabbed through fields. | Should follow logical order. | Focus skipped the dropdown because of a stray `<br>`. |
+| | Error visibility | Triggered validation. | Errors should be visible. | Error bubble overlapped the navbar due to absolute positioning. |
+| Responsiveness | Navbar collapse | Tested on mobile. | Should collapse properly. | Worked fine. |
+| | Form layout | Checked stacking. | Should stack neatly. | Inputs stacked but spacing was tight. |
+| | Input widths | Checked overflow. | Should not overflow. | Radio buttons wrapped awkwardly because of fixed width. |
+| | Submit button | Checked tap size. | Should be easy to tap. | Slightly too close to the email field. |
+
+
+## Q&A Page — `q&a.html`
+
+| Test Category | Feature | Test Description | Expected Result | Actual Result |
+|--------------|---------|------------------|----------------|---------------|
+| Functionality | Navbar links | Clicked each link. | All links should work. | Q&A link briefly showed `&amp;` in the URL. |
+| | FAQ dropdowns | Opened each `<details>`. | Should open/close smoothly. | One dropdown needed a second click because a closing tag was missing. |
+| | FAQ content | Checked formatting. | Should display correctly. | One list item missing `</li>`. |
+| | Gallery images | Checked loading. | All images should load. | One image path ended in `.jp` instead of `.jpg`. |
+| | Training tips dropdown | Tested expand/collapse. | Should work normally. | Worked, but indentation looked uneven. |
+| | Footer links | Tested external links. | Should open in new tabs. | One link missing `rel="noopener"`. |
+| Usability | Page heading | Checked spacing. | Should be clear. | Extra space before the colon. |
+| | FAQ readability | Checked spacing. | Should be readable. | One `<p>` missing a closing tag. |
+| | Keyboard navigation | Tabbed through page. | Should follow logical order. | Focus skipped one FAQ due to a stray `<br>`. |
+| | Alt text | Checked alt attributes. | Should be descriptive. | One typo (“dachshud”). |
+| | Footer email | Checked link. | Should be usable. | Missing `mailto:`. |
+| Responsiveness | Navbar collapse | Tested on mobile. | Should collapse properly. | One class misspelled (`navbr`). |
+| | FAQ spacing | Checked on mobile. | Should be spaced evenly. | One inline style missing a semicolon. |
+| | Gallery layout | Checked wrapping. | Should wrap cleanly. | One image had a fixed width causing overflow. |
+| | Image scaling | Checked resizing. | Should scale properly. | One image missing `max-width: 100%`. |
+| | Footer layout | Checked stacking. | Should stack neatly. | One `<li>` nested incorrectly. |
+
+
+
+
+## About Page — `about.html`
+
+### **Manual Testing**
+
+| Test Category | Feature | Test Description | Expected Result | Actual Result |
+|--------------|---------|------------------|----------------|---------------|
+| **Functionality** | Navbar links | Clicked each link. | All links should work. | About link had inconsistent spacing inside the `<a>` tag. |
+| | Mimi image | Checked if image loads. | Should load correctly. | Loaded, but filename originally used uppercase letters. |
+| | Video section | Checked placeholder. | Should display correctly. | Worked, but one `<h2>` was left empty. |
+| | Testimonies | Checked formatting. | Should display normally. | One quote missing a closing quotation mark. |
+| | Footer links | Tested social links. | Should open in new tabs. | One link missing `rel="noopener"`. |
+| **Usability** | Page heading | Checked clarity. | Should be readable. | Heading spacing slightly uneven. |
+| | Story paragraph | Checked readability. | Should be easy to read. | One sentence missing a period. |
+| | Keyboard navigation | Tabbed through page. | Should follow logical order. | Focus jumped because of an empty `<div>`. |
+| | Alt text | Checked alt attribute. | Should be descriptive. | One typo (“minature”). |
+| **Responsiveness** | Navbar collapse | Tested on mobile. | Should collapse properly. | Worked fine. |
+| | Image scaling | Checked resizing. | Should scale properly. | Slight stretching due to fixed height. |
+| | Video section | Checked layout. | Should not overflow. | Overflow caused by fixed width. |
+| | Footer layout | Checked stacking. | Should stack neatly. | Footer text felt a bit cramped. |
+
+
+---
+
+
+## Deployment
+
+### GitHub Pages Deployment
+
+The site was deployed using **GitHub Pages**.  
+Here are the steps I followed to publish the project:
+
+1. Open the GitHub repository for the project.
+2. Click on **Settings** in the top navigation bar.
+3. Select **Pages** from the left-hand menu.
+4. Under **Source**, choose:
+   - **Branch:** `main`
+   - **Folder:** `/root` (default)
+5. Click **Save**.
+6. After a few moments, GitHub Pages generated a live link to the website.
+
+**Live Site:**  
+
+
+---
+
+### Running the Project Locally
+
+To run the project on your own machine:
+
+1. Go to the GitHub repository.
+2. Click the green **Code** button.
+3. Choose one of the following:
+   - **Download ZIP** and extract it  
+   - Copy the **HTTPS** link and clone it using Git
+4. Open the project folder in your code editor.
+5. Open `index.html` in your browser to view the site locally.
+
+---
+
+
+# Design Comments
+
+These notes explain some of the choices I made while building **The Sausage Den**, and why the site looks and works the way it does. I wanted to keep things simple, clear, and easy to follow, even if that meant making a few changes along the way.
+
+## General Design Choices
+- I built the site with a **mobile‑first mindset**, since most people browse on their phones and I wanted everything to scale nicely without having to re-do layouts later.
+- I used **semantic HTML** (sections, headers, footers, fieldsets, legends, etc.) to keep the structure clear and more accessable.
+- Bootstrap is used mainly for the **navbar and basic responsiveness**, but most of the layout is done with my own CSS so I could control spacing and styling more easily.
+
+## Home Page
+- The home page uses a **hero banner** to set the tone and make the site feel welcoming right away.
+- The coat‑type boxes are laid out using **custom flexbox styling** instead of Bootstrap’s grid because it gave me more control over spacing and how things lined up.
+- I added small **cross‑links** (like Fun Facts → Q&A) to help guide visitors to the info they’re looking for without making them search around.
+- A few images use **inline styles** for quick adjustments without creating extra CSS classes that weren’t really neccessary.
+
+## Q&A Page
+- I switched from buttons to **`<details>` and `<summary>`** because they’re simpler, more accessable, and don’t need JavaScript.
+- The gallery is built with a **custom responsive layout** so the images wrap neatly on all screen sizes.
+- I added hover effects and warm colours to make the page feel a bit more interactive and friendly.
+
+## About Page
+- The header uses a **gradient background** to give the page a bit more personality and make it stand out.
+- The photo of Mimi is my own, so no attribution is needed.
+- I converted the video to **MP4** so it works across all browsers without issues.
+- I used **`<blockquote>`** for the testimonies to make them stand out and read more naturally.
+
+## Form Page
+- I used **fieldset and legend** elements to group related inputs and make the form easier to follow.
+- I relied on **built‑in HTML validation** (like `required` and `type="email"`) instead of JavaScript to keep things simple and avoid unneccessary scripts.
+- Radio buttons were used for the age question because they make the choice clear and avoid confusion.
+- The form doesn’t submit anywhere (`action="#"`) because the project focuses on front‑end structure only.
+
+## CSS Choices
+- I chose a warm, earthy **colour palette** to match the friendly theme of the site and the natural tones of dachshunds.
+- The gallery uses **flexbox + media queries** so the layout adapts smoothly from desktop to tablet to mobile.
+- I used **gradients, borders, and soft colours** to give the site a warm, approachable feel without making it look too busy.
+- Typography and spacing were adjusted to keep everything readable and not too cramped.
+- Most sections use **custom classes** so I could keep the layout consistent across pages and avoid repeating myself unneccessarily.
+
+---
+
+# Code Attributions and Credits
+
+## Frameworks & Libraries
+- **Bootstrap 5.3.8** (CSS & JS) via CDN  
+  https://getbootstrap.com
+
+## Code References
+- All HTML, CSS, and layout decisions were written by me.
+- External code includes:
+  - Bootstrap navbar structure and responsive behaviour (from https://getbootstrap.com)
+  - Google Maps embed code (generated via Google Maps “Share -> Embed a map”)
+  - Form validation guidance from MDN Web Docs (https://developer.mozilla.org)
+- Claude AI was used once to identify a hidden image path error.
+- All Unsplash images are credited in the Credits section.
+
+
+## Images
+All Unsplash images are credited in the Credits table.  
+`mimi.jpeg` and `mimivid.mp4` are my own files.
