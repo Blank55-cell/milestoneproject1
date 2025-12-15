@@ -19,7 +19,10 @@ A website dedicated to helping dachshund owners better understand their dogs’ 
   - [q&a.html – Q&A Section](#3-qahtml--qa-section)
   - [formss.html – Registration Form](#4-formsshtml--registration-form)
 - [Current Content For Paragraph Elements](#current-content-for-paragraph-elements)
-  - [Dachshund Coat Types](#dachshund-coat-types)
+  - [Dachshund Coat Type](#dachshund-coat-types)
+  - [Q&A Page Content](#qa-page-content)
+  - [About Page Content](#about-page-content)
+  - [Registration Form Page Content](#registration-form-page-content)
 - [Common Symptoms Experienced by Dachshunds](#common-symptoms-experienced-by-dachshunds)
 - [UX](#ux)
 - [Website Testing](#website-testing)
@@ -233,6 +236,8 @@ Wire-haired dachshunds have a rough, wiry outer coat with a softer undercoat. Th
 
 ### Dental Disease 
 - Small breeds in general suffer from tartar buildup, gum disease, and tooth loss
+
+---
 
 ## Q&A Page Content  
 The Q&A page presents the most frequently asked questions using dropdowns:
