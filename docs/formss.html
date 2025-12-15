@@ -5,11 +5,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Registration Form</title>
+
+  <!-- Bootstrap CSS -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
-       <link rel="stylesheet" href="assets/css/mystyle.css">
+  
+  <!-- Custome CSS -->
+  <link rel="stylesheet" href="assets/css/mystyle.css">
 
 </head>
 <body class="body">
+
+   <!-- Navigation Bar from Bootstrap-->
 <nav class="navbar navbar-expand-lg bg-body-tertiary">                                               
    <div class="container-fluid">
      <a class="navbar-brand" href="index.html">Welcome</a>
@@ -31,8 +37,12 @@
     </div>
   </div>
 </nav>
+<!-- Page Title -->
  <h1 id="form">Registration Form</h1>
+   <!-- Registration Form -->
     <form method="post" action="#">
+
+   <!-- Full Name Section -->
    <fieldset>
       <legend>Full Name</legend>
          <label for="firstName">First Name:</label>
@@ -40,6 +50,8 @@
                <label for="lastName">Last Name:</label>
             <input class="form-section" type="text" id="lastName" name="lastName" placeholder="Enter your last name" required>
    </fieldset>
+
+    <!-- Dachshund Type Section -->
     <fieldset>
        <legend>What type of Dachshunds do you have?</legend>
           <label for="dachshundType">Select type:</label>
@@ -51,6 +63,8 @@
        <option value="smoothHaired">Smooth-haired</option>
     </select>
 </fieldset>
+
+<!-- Age Confirmation Section -->
 <fieldset>
      <legend>Other Info</legend>
         <p>Are you over 18?</p>
@@ -59,11 +73,16 @@
            <input type="radio" id="ageNo" name="confirmAge" value="No">
            <label for="ageNo">No</label>
 </fieldset>
+          
+         <!-- Email Section -->
           <label for="provideEmail">Please provide your email:</label>
           <input class="form-section" type="email" name="provideEmail" id="provideEmail" placeholder="Enter your email" required>
+         
+          <!-- Submit Button -->
           <input type="submit" value="Register" aria-label="Submit registration form">
 </form>
 
+ <!-- Bootstrap JS -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
 </body>
 </html>
