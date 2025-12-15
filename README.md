@@ -18,7 +18,7 @@ A website dedicated to helping dachshund owners better understand their dogs’ 
   - [about.html – About Section](#2-abouthtml--about-section)
   - [q&a.html – Q&A Section](#3-qahtml--qa-section)
   - [formss.html – Registration Form](#4-formsshtml--registration-form)
-- [Current Content](#current-content)
+- [Current Content For Paragraph Elements](#current-content-for-paragraph-elements)
   - [Dachshund Coat Types](#dachshund-coat-types)
 - [Common Symptoms Experienced by Dachshunds](#common-symptoms-experienced-by-dachshunds)
 - [UX](#ux)
@@ -233,6 +233,41 @@ Wire-haired dachshunds have a rough, wiry outer coat with a softer undercoat. Th
 
 ### Dental Disease 
 - Small breeds in general suffer from tartar buildup, gum disease, and tooth loss
+
+## Q&A Page Content  
+The Q&A page presents the most frequently asked questions using dropdowns:
+
+- **Coat care:** grooming needs for wire-haired, smooth-haired, and long-haired dachshunds, plus a quick tip about spotting skin issues early.  
+- **Bathing:** recommended every 1–2 months or when dirty, using coat‑appropriate shampoo.  
+- **Diet:** omega 3 and omega 6 fatty acids help support healthier skin and coat.  
+- **Grooming:** wire-haired benefit from occasional grooming; smooth-haired mainly need brushing; long-haired may need trimming.  
+- **Exercise:** around 45 minutes to an hour per day, avoiding high-intensity movement.  
+- **Separation anxiety:** dachshunds bond closely with owners and may struggle with long separations.
+
+The page also includes a **Gallery of sausages** with images of smooth-haired, wire-haired, and puppy dachshunds, plus Mimi in a Mickey Mouse hoodie.
+
+A **Training Tips** dropdown provides advice on starting early, keeping sessions short, using positive reinforcement, and being consistent.
+
+---
+
+## About Page Content  
+The About page explains the personal story behind the site. It introduces Mimi, the miniature dachshund who inspired the project. It describes challenges such as Mimi being shy around new people and the difficulty of finding reliable information on dachshund care and how it led to creating the site to help others in similar situations.
+
+A **Video of Mimi** is included, along with a **Values** section listing compassion, community, and transparency.  
+A **Testimonies** section features quotes from users who improved their dog’s coat health, reduced scratching, and found better diet guidance.
+
+---
+
+## Registration Form Page Content  
+The registration form includes:
+
+- **Full Name:** required fields for first and last name  
+- **Dachshund Type:** dropdown with Miniature, Long-haired, Wire-haired, and Smooth-haired  
+- **Age Confirmation:** radio buttons asking if the user is over 18  
+- **Email:** required email input field  
+
+The form ends with a **Register** button.
+
 
 
 ---
