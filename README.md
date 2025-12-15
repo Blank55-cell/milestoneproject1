@@ -276,13 +276,17 @@ View the project wireframes: [Wireframe Design](https://balsamiq.cloud/sr1qhq1/p
 
 ---
 
-### Lighthouse testing 
+## Lighthouse testing 
+### Index + Lighthouse
 ![Index + Lighthouse](docs/assets/testing/lighthouse.png)
 
+### Form + Lighthouse
 ![Form + Lighthouse](docs/assets/testing/formlighthouse.png)
 
+### About + Lighthouse
 ![About + Lighthouse](docs/assets/testing/aboutlighthouse.png)
 
+### Q&A + Lighthouse
 ![Q&A + Lighthouse](docs/assets/testing/qandalighthouse.png)
 
 
