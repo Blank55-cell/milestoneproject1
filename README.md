@@ -13,7 +13,7 @@ A website dedicated to helping dachshund owners better understand their dogs’ 
 - [Credits](#credits)
 - [Bug Fixes](#bug-fixes)
 - [Changes Done to the Code/Layout](#changes-done-to-the-codelayout)
-- [Site Pages Structure](#site-pages-structure)
+- [Site Structure Overview](#site-structure-overview)
   - [index.html – Home Page](#1-indexhtml--home-page)
   - [about.html – About Section](#2-abouthtml--about-section)
   - [q&a.html – Q&A Section](#3-qahtml--qa-section)
@@ -22,8 +22,7 @@ A website dedicated to helping dachshund owners better understand their dogs’ 
   - [Dachshund Coat Types](#dachshund-coat-types)
 - [Common Symptoms Experienced by Dachshunds](#common-symptoms-experienced-by-dachshunds)
 - [UX](#ux)
-- [Site Structure](#site-pages-structure)
-- [Website testing](#website-testing)
+- [Website Testing](#website-testing)
 - [Screenshots](#screenshots)
   - [Q&A + Lighthouse](#qa--lighthouse)
   - [Form + Lighthouse](#form--lighthouse)
@@ -123,7 +122,7 @@ Images used in this project:
 
 ---
 
-## Site Pages Structure
+## Site Structure Overview
 
 ### 1. `index.html` – Home Page
 - Header with site name and tagline.  
