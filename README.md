@@ -23,7 +23,7 @@ A website dedicated to helping dachshund owners better understand their dogs’ 
 - [Common Symptoms Experienced by Dachshunds](#common-symptoms-experienced-by-dachshunds)
 - [UX](#ux)
 - [Website Testing](#website-testing)
-- [Screenshots](#screenshots)
+- [Lighthouse Testing](#lighthouse-testing)
   - [Q&A + Lighthouse](#qa--lighthouse)
   - [Form + Lighthouse](#form--lighthouse)
   - [About + Lighthouse](#about--lighthouse)
@@ -276,7 +276,8 @@ View the project wireframes: [Wireframe Design](https://balsamiq.cloud/sr1qhq1/p
 
 ---
 
-## Lighthouse testing 
+## Lighthouse Testing 
+
 ### Index + Lighthouse
 ![Index + Lighthouse](docs/assets/testing/lighthouse.png)
 
